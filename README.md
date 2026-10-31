@@ -35,12 +35,15 @@ Ces textes restent en anglais pour l'instant et seront traduits dans les prochai
 
 ## Comment jouer
 
-1. **Télécharge la ROM d'origine** sur le site officiel : [pokeodyssey.net](https://pokeodyssey.net/)
+1. **Télécharge la ROM d'origine** (Pokémon Odyssey COMPLETE v4.1.1, EXPANDED BAG), au choix :
+   - [MediaFire](https://www.mediafire.com/file/1lka2b8zwav7c6j/Pok%C3%A9mon_Odyssey_COMPLETE_v4.1_%28EXPANDED_BAG%29.zip/file)
+   - [Mega](https://mega.nz/file/5Yg2kDDC#4gft_XZ2_1P7Vc-cmcbz-EHWTOzGHqiXigRDyhQ0l2M)
+   - [Discussion PokéCommunity](https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/)
 2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.2.bps`) dans la section [Releases](../../releases) de ce dépôt.
 3. **Applique le patch** avec le patcheur en ligne : [patcher.chronotriggerturkiye.com](https://patcher.chronotriggerturkiye.com/)
 4. Lance la ROM obtenue sur émulateur ou console.
 
-> Aucune ROM n'est distribuée ici : il faut télécharger le jeu d'origine depuis le site officiel.
+> Aucune ROM n'est distribuée ici : le patch ne fonctionne que sur la ROM d'origine v4.1.1 (EXPANDED BAG).
 
 ## Limites connues
 
