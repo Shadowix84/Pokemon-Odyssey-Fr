@@ -6,6 +6,6 @@ Le seul patch officiel de cette traduction est celui publié dans la section Rel
 
 ## Signaler un problème de sécurité
 
-Si tu repères un lien suspect, un faux patch ou un fichier douteux se faisant passer pour cette traduction, préviens-moi en message privé sur le serveur Discord : https://discord.gg/NWvBjU3kya
+Si tu repères un lien suspect, un faux patch ou un fichier douteux se faisant passer pour cette traduction, préviens-moi avec le salon pour contacter un modérateur sur le serveur Discord : https://discord.gg/NWvBjU3kya
 
 Les bugs de jeu et les fautes de traduction sont à signaler sur le même Discord, dans le salon prévu.
