@@ -1,21 +1,11 @@
-# Security Policy
+# Politique de sécurité
 
-## Supported Versions
+## Fichiers officiels
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Le seul patch officiel de cette traduction est celui publié dans la section Releases de ce dépôt. Ne télécharge pas de ROM ou de patch « Pokémon Odyssey FR » depuis d'autres sources : ils pourraient contenir des fichiers malveillants.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## Signaler un problème de sécurité
 
-## Reporting a Vulnerability
+Si tu repères un lien suspect, un faux patch ou un fichier douteux se faisant passer pour cette traduction, préviens-moi en message privé sur le serveur Discord : https://discord.gg/NWvBjU3kya
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Les bugs de jeu et les fautes de traduction sont à signaler sur le même Discord, dans le salon prévu.
