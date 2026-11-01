@@ -56,6 +56,18 @@ Ces textes restent en anglais pour l'instant et seront traduits dans les prochai
 >
 > Chaque patch s'applique directement sur la ROM d'origine : inutile d'appliquer les versions précédentes avant.
 
+## Vérifier ta ROM
+
+Le patch ne fonctionne que sur cette ROM exacte. Tu peux vérifier la tienne sur [romhasher.com](https://www.romhasher.com/) :
+
+| | Valeur |
+|---|---|
+| Taille | 32 Mo (33 554 432 octets) |
+| CRC32 | `6C5EE1B2` |
+| SHA-1 | `8745ddbdbfadf6abaf66de4e9055923b62eb4668` |
+
+Si ta valeur est différente, ta ROM n'est pas la bonne version : retélécharge-la avec les liens ci-dessus.
+
 ## Choix de traduction
 
 - Tout le monde tutoie Nyx, et les accords sont au féminin.
@@ -83,3 +95,8 @@ Les bugs, fautes et suggestions ne se signalent **pas sur GitHub** mais sur le [
 
 - Équipe de Pokémon Odyssey, pour la ROM hack d'origine
 - Traduction française : Shadowix84
+
+## Mentions
+
+Projet de fans, non officiel et gratuit. Pokémon est une marque de Nintendo, Game Freak et The Pokémon Company.
+Aucune ROM n'est fournie : seul le patch de traduction est distribué.
