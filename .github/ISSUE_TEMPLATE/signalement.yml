@@ -1,0 +1,63 @@
+name: Signaler un bug ou une faute
+description: Un texte en anglais ou coupé, une faute, un bug, ou un patch qui ne s'applique pas.
+title: "[FR4.x.x] "
+labels: ["à trier"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler un problème !
+        Un champ par information : ça m'aide à corriger plus vite.
+  - type: input
+    id: version
+    attributes:
+      label: Version de la traduction
+      description: Elle s'affiche dans le menu principal (« Continuer FR4.x.x »).
+      placeholder: FR4.1.4
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de problème
+      options:
+        - Faute de traduction ou d'orthographe
+        - Texte coupé ou qui dépasse
+        - Texte encore en anglais
+        - Le jeu se fige ou plante
+        - Le patch ne s'applique pas
+        - Autre
+    validations:
+      required: true
+  - type: input
+    id: lieu
+    attributes:
+      label: Où dans le jeu ?
+      description: Lieu, personnage, menu ou combat.
+      placeholder: "Ex. Talrega, café de Lixin, en parlant à Brody"
+    validations:
+      required: true
+  - type: textarea
+    id: texte
+    attributes:
+      label: Le texte concerné et ce qui ne va pas
+      placeholder: Recopie le texte tel qu'il s'affiche, et dis ce qui te semble faux.
+    validations:
+      required: true
+  - type: textarea
+    id: capture
+    attributes:
+      label: Capture d'écran
+      description: Glisse une image ici (fortement conseillé).
+  - type: input
+    id: emulateur
+    attributes:
+      label: Émulateur ou console
+      placeholder: "Ex. mGBA, Delta (iPhone), GBA + cartouche"
+  - type: checkboxes
+    id: rom
+    attributes:
+      label: Vérification
+      options:
+        - label: J'ai appliqué le patch sur la ROM d'origine v4.1.1 (EXPANDED BAG), sans autre patch.
+          required: true

@@ -7,8 +7,8 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 ## Statut
 
 - Version de la ROM d'origine : v4.1.1
-- Version de la traduction : **FR4.1.4** (traduction partielle, en cours)
-- Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.4 »
+- Version de la traduction : **FR4.1.5** (traduction partielle, en cours)
+- Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.5 »
 
 ## Ce qui est traduit
 
@@ -29,7 +29,13 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 - Les descriptions des 344 objets, 122 talents et 429 attaques
 - Les 56 catégories du Pokédex inventées par le hack (ex. RenardDivin, LézardAvide, Nécromant)
 
-**Dialogues de Talrega** *(nouveau en FR4.1.4)*
+**Dialogues de l'archipel** *(nouveau en FR4.1.5)*
+- La Mer de Galazeah : le paquebot, les routes maritimes à débloquer, les pirates et les Boss marins
+- La Route Côtière : Saya et ses Formes d'Etria, le capitaine de l'Exploration Navale
+- Le Mont Dentelé : Manfroy et l'énigme de la stèle
+- Arundel : la potion d'Endurance et le Juge des surnoms
+
+**Dialogues de Talrega** *(FR4.1.4)*
 - Les retrouvailles au café de Lixin et les combats contre les Capitaines
 - La Guilde des Aventuriers, Visil, le professeur Rennac et Annette
 - La boutique de Rikkah, la loterie, la Maison des Combats, les panneaux et les textes d'aide (Endurance, points de minage, F.O.E., Échange Miracle)
@@ -48,7 +54,7 @@ Ces textes restent en anglais pour l'instant et seront traduits dans les prochai
    - [MediaFire](https://www.mediafire.com/file/1lka2b8zwav7c6j/Pok%C3%A9mon_Odyssey_COMPLETE_v4.1_%28EXPANDED_BAG%29.zip/file)
    - [Mega](https://mega.nz/file/5Yg2kDDC#4gft_XZ2_1P7Vc-cmcbz-EHWTOzGHqiXigRDyhQ0l2M)
    - [Discussion PokéCommunity](https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/)
-2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.4.bps`) dans la section [Releases](../../releases) de ce dépôt.
+2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.5.bps`) dans la section [Releases](../../releases) de ce dépôt.
 3. **Applique le patch** avec le patcheur en ligne : [patcher.chronotriggerturkiye.com](https://patcher.chronotriggerturkiye.com/)
 4. Lance la ROM obtenue sur émulateur ou console.
 
@@ -77,12 +83,13 @@ Si ta valeur est différente, ta ROM n'est pas la bonne version : retélécharge
 
 ## Limites connues
 
-Environ 200 noms (lieux, objets…) sont plus larges que l'original et peuvent être coupés à l'écran. Ils sont en cours de vérification en jeu.
+Environ 200 textes sont plus larges que l'original. Après vérification avec la police du jeu, la plupart ont la place de s'afficher ; une centaine de libellés de menu (ex. « NOUVEAU NOM », « Point de cueillette ») peuvent encore être coupés à l'écran et sont en cours de vérification en jeu.
 
 ## Historique des versions
 
 | Version | Contenu |
 |---|---|
+| FR4.1.5 | Dialogues de la Mer de Galazeah, de la Route Côtière, du Mont Dentelé et d'Arundel |
 | FR4.1.4 | Dialogues de Talrega (café de Lixin, Capitaines, Guilde, panneaux) |
 | FR4.1.3 | Descriptions des objets, talents et attaques ; catégories du Pokédex inventées par le hack |
 | FR4.1.2 | Première version : noms, lieux, dresseurs, menus et messages de combat |
@@ -91,7 +98,7 @@ Environ 200 noms (lieux, objets…) sont plus larges que l'original et peuvent �
 
 Les bugs, fautes et textes coupés se signalent **uniquement dans les [issues GitHub](../../issues/new/choose)**, avec le formulaire de signalement.
 
-Indique ta version (ex. FR4.1.4), l'endroit dans le jeu et, si possible, une capture d'écran.
+Indique ta version (ex. FR4.1.5), l'endroit dans le jeu et, si possible, une capture d'écran.
 
 Le [serveur Discord](https://discord.gg/NWvBjU3kya) sert à discuter et à suivre les nouveautés.
 
