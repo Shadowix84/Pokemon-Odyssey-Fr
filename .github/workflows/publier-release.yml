@@ -63,13 +63,14 @@ jobs:
           VERSION: ${{ inputs.version }}
         run: |
           set -euo pipefail
+          COPIES=()
           for f in README.md CHANGELOG.md CONTRIBUTING.md; do
-            if [ -f "publication/$VERSION/$f" ]; then cp "publication/$VERSION/$f" "$f"; fi
+            if [ -f "publication/$VERSION/$f" ]; then cp "publication/$VERSION/$f" "$f"; COPIES+=("$f"); fi
           done
-          if ! git diff --quiet; then
+          if [ ${#COPIES[@]} -gt 0 ] && [ -n "$(git status --porcelain -- "${COPIES[@]}")" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-            git add README.md CHANGELOG.md CONTRIBUTING.md
+            git add -- "${COPIES[@]}"
             git commit -m "Publication $VERSION : README et journal des modifications"
             git push origin "HEAD:${GITHUB_REF_NAME}"
             echo "Fichiers du dépôt mis à jour pour $VERSION" >> "$GITHUB_STEP_SUMMARY"

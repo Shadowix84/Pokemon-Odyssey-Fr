@@ -14,7 +14,7 @@ body:
     attributes:
       label: Version de la traduction
       description: Elle s'affiche dans le menu principal (« Continuer FR4.x.x »).
-      placeholder: FR4.1.5
+      placeholder: FR4.x.x
     validations:
       required: true
   - type: input

@@ -12,10 +12,6 @@ Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans l
 - Dialogues d'Arundel : la potion d'Endurance, le Juge des surnoms
 - Textes repris de Rouge Feu (Ligue, Parc Safari, Tour Dresseurs, Centres Pokémon) avec les noms français officiels
 
-**Amélioré**
-- Les retours à la ligne ne coupent plus « Déf. Spé. » et ne laissent plus un « ! », « ? » ou « : » seul en début de ligne
-- Les textes plus larges que l'original ont été vérifiés avec la police du jeu : la plupart s'affichent sans problème
-
 ## FR4.1.4
 
 **Ajouté**
@@ -30,7 +26,7 @@ Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans l
 - Les 56 catégories du Pokédex inventées par le hack (ex. RenardDivin, LézardAvide, Nécromant)
 
 **Amélioré**
-- Le menu principal affiche automatiquement la version de la traduction
+- Les retours à la ligne ne coupent plus « Déf. Spé. » et ne laissent plus un « ! », « ? » ou « : » seul en début de ligne
 
 ## FR4.1.2
 
