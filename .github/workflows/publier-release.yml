@@ -2,6 +2,8 @@
 # Les fichiers doivent déjà être dans le dépôt :
 #   publication/<VERSION>/<NOM>_patch_<VERSION>.bps   (le patch)
 #   publication/<VERSION>/release.md                  (le texte de la release)
+# Facultatif : README.md, CHANGELOG.md, CONTRIBUTING.md dans le même dossier -> copiés à la racine
+# du dépôt au moment de la publication, pour que la page d'accueil et la release changent ensemble.
 name: Publier une release
 
 on:
@@ -52,6 +54,25 @@ jobs:
           echo "titre=$NOM $VERSION" >> "$GITHUB_OUTPUT"
           echo "notes=$DOSSIER/release.md" >> "$GITHUB_OUTPUT"
 
+      - name: Mettre à jour le README (et le journal) en même temps
+        id: maj
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          for f in README.md CHANGELOG.md CONTRIBUTING.md; do
+            if [ -f "publication/$VERSION/$f" ]; then cp "publication/$VERSION/$f" "$f"; fi
+          done
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git add README.md CHANGELOG.md CONTRIBUTING.md
+            git commit -m "Publication $VERSION : README et journal des modifications"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+            echo "Fichiers du dépôt mis à jour pour $VERSION" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
       - name: Créer la release
         env:
           VERSION: ${{ inputs.version }}
@@ -60,7 +81,7 @@ jobs:
           gh release create "$VERSION" "${{ steps.verif.outputs.patch }}" \
             --title "${{ steps.verif.outputs.titre }}" \
             --notes-file "${{ steps.verif.outputs.notes }}" \
-            --target "$GITHUB_SHA" \
+            --target "${{ steps.maj.outputs.sha }}" \
             --latest
           echo "### Release publiée : ${{ steps.verif.outputs.titre }}" >> "$GITHUB_STEP_SUMMARY"
           echo "${{ github.server_url }}/${{ github.repository }}/releases/tag/$VERSION" >> "$GITHUB_STEP_SUMMARY"
