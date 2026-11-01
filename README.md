@@ -217,6 +217,10 @@ Indique ta version (ex. FR4.1.6), l'endroit dans le jeu et, si possible, une cap
 
 Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivre les nouveautés.
 
+<p align="center">
+  <a href="https://discord.gg/c7SMEeAm9s"><img src="https://discord.com/api/guilds/1565048714501038083/widget.png?style=banner2" alt="Rejoindre le serveur Discord"></a>
+</p>
+
 ## Crédits
 
 - Équipe de Pokémon Odyssey, pour la ROM hack d'origine
