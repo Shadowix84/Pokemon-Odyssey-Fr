@@ -89,7 +89,11 @@ Environ 200 noms (lieux, objets…) sont plus larges que l'original et peuvent �
 
 ## Bugs et fautes de traduction
 
-Les bugs, fautes et suggestions ne se signalent **pas sur GitHub** mais sur le [serveur Discord](https://discord.gg/NWvBjU3kya). Pense à indiquer ta version (ex. FR4.1.4) et, si possible, à joindre une capture d'écran.
+Les bugs, fautes et textes coupés se signalent **uniquement dans les [issues GitHub](../../issues/new/choose)**, avec le formulaire de signalement.
+
+Indique ta version (ex. FR4.1.4), l'endroit dans le jeu et, si possible, une capture d'écran.
+
+Le [serveur Discord](https://discord.gg/NWvBjU3kya) sert à discuter et à suivre les nouveautés.
 
 ## Crédits
 
