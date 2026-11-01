@@ -39,6 +39,10 @@ jobs:
             exit 1
           fi
           DOSSIER="publication/$VERSION"
+          if [ ! -d "$DOSSIER" ]; then
+            echo "::error::Le dossier $DOSSIER n'existe pas encore : demande d'abord « Mets à jour le GitHub » à Claude (il y dépose le patch et le texte de la release), puis relance."
+            exit 1
+          fi
           PATCH=$(ls "$DOSSIER"/*_patch_"$VERSION".bps 2>/dev/null | head -n 1 || true)
           if [ -z "$PATCH" ]; then
             echo "::error::Patch introuvable : $DOSSIER/<NOM>_patch_$VERSION.bps"
