@@ -96,7 +96,7 @@ Au total, environ **22 %** des textes du jeu sont traduits (hors textes probable
 
 ## Vérifier ta ROM
 
-Le patch ne fonctionne que sur cette ROM exacte. Tu peux vérifier la tienne sur [romhasher.com](https://www.romhasher.com/) :
+Le patch ne fonctionne que sur cette ROM exacte. Pour vérifier la tienne, ouvre-la dans [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : le site affiche son CRC32 et son SHA-1 dès que tu la charges.
 
 | | Valeur |
 |---|---|
@@ -105,6 +105,15 @@ Le patch ne fonctionne que sur cette ROM exacte. Tu peux vérifier la tienne sur
 | SHA-1 | `8745ddbdbfadf6abaf66de4e9055923b62eb4668` |
 
 Si ta valeur est différente, ta ROM n'est pas la bonne version : retélécharge-la avec les liens ci-dessus.
+
+<details>
+<summary>Sans site internet</summary>
+
+- **Mac** : dans le Terminal, tape `shasum -a 1 ` (avec l'espace), glisse ta ROM dans la fenêtre, puis appuie sur Entrée.
+- **Windows** : dans l'invite de commandes, tape `certutil -hashfile "chemin\de\ta\rom.gba" SHA1`.
+
+Compare le résultat avec le SHA-1 du tableau.
+</details>
 
 ## Questions fréquentes
 
