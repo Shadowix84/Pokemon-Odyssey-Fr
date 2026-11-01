@@ -2,6 +2,8 @@
 # Les fichiers doivent déjà être dans le dépôt :
 #   publication/<VERSION>/<NOM>_patch_<VERSION>.bps   (le patch)
 #   publication/<VERSION>/release.md                  (le texte de la release)
+# Les issues étiquetées « corrigé – prochaine version » sont ajoutées à la rubrique « Corrigé » de la release,
+# puis fermées avec le message « Corrigé dans <VERSION> » et le lien du patch (message 3).
 # Facultatif : README.md, CHANGELOG.md, CONTRIBUTING.md dans le même dossier -> copiés à la racine
 # du dépôt au moment de la publication, pour que la page d'accueil et la release changent ensemble.
 name: Publier une release
@@ -16,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   publier:
@@ -73,6 +76,31 @@ jobs:
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+      - name: Lister les issues corrigées dans la release
+        id: issues
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          NOTES: ${{ steps.verif.outputs.notes }}
+        run: |
+          set -euo pipefail
+          gh api -X GET "repos/$REPO/issues" -f state=open -f labels="corrigé – prochaine version" -f per_page=100 \
+            --jq '.[] | select(.pull_request == null) | "\(.number)\t\(.title)"' > corrigees.tsv
+          cp "$NOTES" notes.md
+          python3 - <<'PY'
+          lignes = [l.rstrip('\n').split('\t', 1) for l in open('corrigees.tsv', encoding='utf-8') if l.strip()]
+          notes = open('notes.md', encoding='utf-8').read()
+          if lignes and '### Corrigé' not in notes:
+              bloc = '### Corrigé\n\n' + '\n'.join('- #%s %s' % (n, t) for n, t in lignes) + '\n\n'
+              for repere in ('### Rappel', '### Ce qui reste'):
+                  if repere in notes:
+                      notes = notes.replace(repere, bloc + repere, 1); break
+              else:
+                  notes = notes.rstrip() + '\n\n' + bloc
+          open('notes.md', 'w', encoding='utf-8').write(notes)
+          PY
+          echo "nombre=$(grep -c . corrigees.tsv || true)" >> "$GITHUB_OUTPUT"
+
       - name: Créer la release
         env:
           VERSION: ${{ inputs.version }}
@@ -80,8 +108,25 @@ jobs:
         run: |
           gh release create "$VERSION" "${{ steps.verif.outputs.patch }}" \
             --title "${{ steps.verif.outputs.titre }}" \
-            --notes-file "${{ steps.verif.outputs.notes }}" \
+            --notes-file notes.md \
             --target "${{ steps.maj.outputs.sha }}" \
             --latest
           echo "### Release publiée : ${{ steps.verif.outputs.titre }}" >> "$GITHUB_STEP_SUMMARY"
           echo "${{ github.server_url }}/${{ github.repository }}/releases/tag/$VERSION" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fermer les issues corrigées
+        if: steps.issues.outputs.nombre != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          URL="${{ github.server_url }}/$REPO/releases/tag/$VERSION"
+          while IFS=$'\t' read -r NUM TITRE; do
+            [ -z "$NUM" ] && continue
+            printf '🎉 **Corrigé dans %s** : c’est en ligne !\n\nTélécharge le nouveau patch ici : %s\n\nMerci pour ton signalement !\n\n*Message automatique*\n' "$VERSION" "$URL" > msg.md
+            gh api "repos/$REPO/issues/$NUM/comments" -F body=@msg.md > /dev/null
+            gh api -X PATCH "repos/$REPO/issues/$NUM" -f state=closed -f state_reason=completed > /dev/null
+            echo "- #$NUM fermée" >> "$GITHUB_STEP_SUMMARY"
+          done < corrigees.tsv

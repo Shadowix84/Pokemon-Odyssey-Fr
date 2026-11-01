@@ -1,0 +1,48 @@
+# Message 2 : quand l'étiquette « corrigé – prochaine version » est ajoutée, un message explique pourquoi
+# (selon le type d'étiquette) et annonce que la correction sera dans la prochaine mise à jour.
+name: Issue corrigée
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  issues: write
+
+jobs:
+  corrigee:
+    if: github.event.label.name == 'corrigé – prochaine version'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Expliquer la correction
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          NUM: ${{ github.event.issue.number }}
+          LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os
+          labels = os.environ['LABELS'].split(',')
+          raisons = {
+              'texte coupé': 'le texte était plus large que la place disponible à l’écran. Il a été reformulé pour tenir dans la fenêtre.',
+              'faute de traduction': 'il y avait une erreur dans la traduction (faute, accord ou sens). La phrase a été corrigée.',
+              'texte en anglais': 'ce texte avait échappé à la traduction. Il est maintenant traduit.',
+              'bug bloquant': 'un code de contrôle ou un lien interne du texte était incorrect et bloquait le jeu. Il a été réparé.',
+              'suggestion': 'ta proposition a été retenue (adaptée si besoin pour tenir à l’écran).',
+          }
+          pourquoi = [raisons[l] for l in labels if l in raisons] or ['le problème signalé a été vérifié et corrigé dans les fichiers de la traduction.']
+          lignes = ['✅ **C’est corrigé !**', '']
+          if len(pourquoi) == 1:
+              lignes.append('**Pourquoi :** ' + pourquoi[0])
+          else:
+              lignes.append('**Pourquoi :**')
+              lignes += ['- ' + p for p in pourquoi]
+          lignes += ['',
+                     'La correction sera incluse dans la **prochaine mise à jour** de la traduction. '
+                     'Cette issue sera fermée automatiquement à sa sortie, avec le lien du patch.',
+                     '', 'Merci encore pour ton aide !', '', '*Message automatique*']
+          open('msg.md', 'w', encoding='utf-8').write('\n'.join(lignes) + '\n')
+          PY
+          gh api "repos/$REPO/issues/$NUM/comments" -F body=@msg.md > /dev/null

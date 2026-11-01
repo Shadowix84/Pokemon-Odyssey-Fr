@@ -1,0 +1,50 @@
+# Message 1 : dès qu'une issue est ouverte, un message confirme qu'elle est bien reçue et en cours de traitement.
+name: Accueil des issues
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  accueil:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Répondre à la nouvelle issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          NUM: ${{ github.event.issue.number }}
+          LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+        run: |
+          set -euo pipefail
+          README="${{ github.server_url }}/${REPO}#vérifier-ta-rom"
+          if [[ ",$LABELS," == *",suggestion,"* ]]; then
+            cat > msg.md <<MSG
+          Merci pour ta proposition ! 🙏
+
+          Elle est bien reçue et **en cours d'examen** : je vérifie qu'elle respecte les choix de la traduction et qu'elle tient à l'écran, puis je te réponds ici.
+
+          Tu recevras un nouveau message si elle est reprise dans une prochaine version.
+
+          *Message automatique*
+          MSG
+          else
+            cat > msg.md <<MSG
+          Merci pour ton signalement ! 🙏
+
+          Ton issue est bien reçue et **en cours de traitement** : je vérifie le problème dans la version indiquée, puis je te réponds ici.
+
+          En attendant, vérifie que :
+          - le patch a été appliqué sur la ROM d'origine indiquée dans le README (les empreintes sont [ici](${README})) ;
+          - ta version (« Continuer FR4.x.x » dans le menu principal) et l'endroit dans le jeu sont bien indiqués.
+
+          Tu recevras un nouveau message dès que ce sera corrigé.
+
+          *Message automatique*
+          MSG
+          fi
+          sed -i 's/^          //' msg.md
+          gh api "repos/$REPO/issues/$NUM/comments" -F body=@msg.md > /dev/null
