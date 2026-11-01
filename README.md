@@ -1,14 +1,54 @@
+<p align="center">
+  <img src="assets/banniere.svg" alt="Pokémon Odyssey – Traduction française" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/github/v/release/Shadowix84/Pokemon-Odyssey-Fr?label=patch&color=2ea043" alt="Dernière version du patch"></a>
+  <img src="https://img.shields.io/badge/avancement-22%20%25-orange" alt="Avancement : 22 %">
+  <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
+  <a href="https://discord.gg/NWvBjU3kya"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+</p>
+
 # Pokémon Odyssey – Traduction française
 
-Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
+Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)** : une aventure dans le Labyrinthe d'Yggdrasil et ses huit Strates, sur une base Pokémon Rouge Feu.
 
-[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white)](https://discord.gg/NWvBjU3kya)
+> **[⬇ Télécharger le dernier patch](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest)** · [Comment jouer](#comment-jouer) · [Signaler un bug](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose)
+
+## Sommaire
+
+- [Statut](#statut)
+- [Avancement](#avancement)
+- [Ce qui est traduit](#ce-qui-est-traduit)
+- [Comment jouer](#comment-jouer)
+- [Vérifier ta ROM](#vérifier-ta-rom)
+- [Questions fréquentes](#questions-fréquentes)
+- [Choix de traduction](#choix-de-traduction)
+- [Limites connues](#limites-connues)
+- [Feuille de route](#feuille-de-route)
+- [Historique des versions](#historique-des-versions)
+- [Signaler un bug ou proposer une traduction](#signaler-un-bug-ou-proposer-une-traduction)
+- [Crédits](#crédits)
 
 ## Statut
 
-- Version de la ROM d'origine : v4.1.1
+- Version de la ROM d'origine : v4.1.1 (EXPANDED BAG)
 - Version de la traduction : **FR4.1.5** (traduction partielle, en cours)
 - Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.5 »
+
+## Avancement
+
+| Partie du jeu | Avancement |
+|---|---|
+| Noms (Pokémon, attaques, talents, objets, lieux, dresseurs) | `██████████` 100 % |
+| Menus et messages de combat | `██████████` 100 % |
+| Descriptions des objets, talents et attaques | `██████████` 100 % |
+| Dialogues | `█░░░░░░░░░` 14 % (2 zones sur 16) |
+| Descriptions du Pokédex | `░░░░░░░░░░` 0 % |
+| Scripts d'événements | `░░░░░░░░░░` 0 % |
+| Interface secondaire (messages système, aide…) | `░░░░░░░░░░` 0 % |
+
+Au total, environ **22 %** des textes du jeu sont traduits (hors textes probablement jamais affichés).
 
 ## Ce qui est traduit
 
@@ -25,7 +65,7 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 - Les menus visibles, la liste des quêtes et les messages de combat
 - Les textes entièrement en italien sont traduits, dont les « {X} manda {Y} ! » qui apparaissaient en combat
 
-**Descriptions** *(nouveau en FR4.1.3)*
+**Descriptions**
 - Les descriptions des 344 objets, 122 talents et 429 attaques
 - Les 56 catégories du Pokédex inventées par le hack (ex. RenardDivin, LézardAvide, Nécromant)
 
@@ -39,14 +79,6 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 - Les retrouvailles au café de Lixin et les combats contre les Capitaines
 - La Guilde des Aventuriers, Visil, le professeur Rennac et Annette
 - La boutique de Rikkah, la loterie, la Maison des Combats, les panneaux et les textes d'aide (Endurance, points de minage, F.O.E., Échange Miracle)
-
-## Ce qui reste à traduire
-
-- Les dialogues des autres zones : le reste de l'archipel de Talrega, les huit Strates, les zones annexes et les fins
-- Les descriptions du Pokédex
-- Les scripts d'événements, l'interface secondaire et les crédits
-
-Ces textes restent en anglais pour l'instant et seront traduits dans les prochaines versions.
 
 ## Comment jouer
 
@@ -74,16 +106,77 @@ Le patch ne fonctionne que sur cette ROM exacte. Tu peux vérifier la tienne sur
 
 Si ta valeur est différente, ta ROM n'est pas la bonne version : retélécharge-la avec les liens ci-dessus.
 
+## Questions fréquentes
+
+<details>
+<summary><b>Le patch refuse de s'appliquer</b></summary>
+
+Ta ROM n'est probablement pas la bonne : compare ses empreintes avec celles de la section [Vérifier ta ROM](#vérifier-ta-rom). Le patch ne marche que sur la v4.1.1 EXPANDED BAG, sans aucun autre patch.
+</details>
+
+<details>
+<summary><b>Faut-il appliquer les patchs précédents d'abord ?</b></summary>
+
+Non. Chaque patch s'applique directement sur la ROM d'origine. Prends simplement le plus récent.
+</details>
+
+<details>
+<summary><b>Ma sauvegarde de la version anglaise marche-t-elle ?</b></summary>
+
+La traduction ne modifie que les textes du jeu : une sauvegarde de la v4.1.1 devrait fonctionner. Fais quand même une copie de ton fichier de sauvegarde avant. Les noms que tu as déjà saisis (ton personnage, les surnoms de tes Pokémon) restent tels quels.
+</details>
+
+<details>
+<summary><b>Sur quel émulateur jouer ?</b></summary>
+
+Ceux que conseille le hack :
+- **PC / Mac** : mGBA (dernière version)
+- **Android** : MyBoy, PizzaBoy, RetroArch (cœur mGBA), Lemuroid
+- **iOS** : Delta, RetroArch (cœur mGBA), 44VBA
+</details>
+
+<details>
+<summary><b>Pourquoi certains textes sont-ils encore en anglais ?</b></summary>
+
+La traduction avance zone par zone : regarde l'[avancement](#avancement) et la [feuille de route](#feuille-de-route). Si un texte d'une zone déjà traduite est resté en anglais, [signale-le](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose).
+</details>
+
+<details>
+<summary><b>Quand sort la prochaine version ?</b></summary>
+
+Il n'y a pas de date fixe : chaque nouvelle version ajoute une zone de dialogues. Les sorties sont annoncées sur le [serveur Discord](https://discord.gg/NWvBjU3kya).
+</details>
+
 ## Choix de traduction
 
 - Tout le monde tutoie Nyx, et les accords sont au féminin.
 - Les mots italiens et romains de Kitt et Rockey sont gardés (daje, anvedi, fidate…).
 - Les noms propres inventés restent tels quels (Nyx, Talrega, Yggdrasil) ; les noms descriptifs sont traduits (Coastal Road → Route Côtière).
-- Chaque personnage garde sa façon de parler : Brody en pirate, Karin avec son parler campagnard, Olympia avec son ton de robot.
+- Les textes repris de Rouge Feu utilisent les noms français officiels (Olga, Aldo, Peter, Prof. Chen, Carmin sur Mer…).
+- Chaque personnage garde sa façon de parler : Brody en pirate, Karin avec son parler campagnard, Olympia avec son ton de robot, Manfroy qui s'emporte en majuscules.
 
 ## Limites connues
 
 Environ 200 textes sont plus larges que l'original. Après vérification avec la police du jeu, la plupart ont la place de s'afficher ; une centaine de libellés de menu (ex. « NOUVEAU NOM », « Point de cueillette ») peuvent encore être coupés à l'écran et sont en cours de vérification en jeu.
+
+## Feuille de route
+
+Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de l'histoire :
+
+- [x] Talrega (FR4.1.4)
+- [x] Mer de Galazeah, Route Côtière, Mont Dentelé, Arundel (FR4.1.5)
+- [ ] Etria, Club Krabby, Gorenil, Ferme Talrega…
+- [ ] Première Strate, Labo Abandonné, Yggdrasil, Centre d'Échange
+- [ ] Deuxième Strate, Grottes de Sable, Repaire des Voleurs, Désert de Golgonda…
+- [ ] Troisième Strate, Café Meumeu, Station Aqua, Temple Marin, Charon…
+- [ ] Quatrième Strate, Limbes, Grotte des Âges, Cité Souterraine, Bois Perdus…
+- [ ] Cinquième Strate, Sanctuaire Profond, Chambre Abyssale
+- [ ] Sixième Strate, Fort Abyssal, Cimetière Etria
+- [ ] Septième Strate, Labo Porcelaine, Antre Porcelaine, Éclat Abyssal
+- [ ] Huitième Strate, Palais Abyssal, Varley
+- [ ] Zones annexes (Île des Pirates, Bois Cascade, Île Érable, Atoll du Nord…)
+- [ ] Les fins
+- [ ] Descriptions du Pokédex, scripts d'événements et interface secondaire
 
 ## Historique des versions
 
@@ -94,11 +187,16 @@ Environ 200 textes sont plus larges que l'original. Après vérification avec la
 | FR4.1.3 | Descriptions des objets, talents et attaques ; catégories du Pokédex inventées par le hack |
 | FR4.1.2 | Première version : noms, lieux, dresseurs, menus et messages de combat |
 
-## Bugs et fautes de traduction
+Le détail de chaque version est dans le [journal des modifications](CHANGELOG.md).
 
-Les bugs, fautes et textes coupés se signalent **uniquement dans les [issues GitHub](../../issues/new/choose)**, avec le formulaire de signalement.
+## Signaler un bug ou proposer une traduction
 
-Indique ta version (ex. FR4.1.5), l'endroit dans le jeu et, si possible, une capture d'écran.
+Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose)**, avec deux formulaires :
+
+- **Signaler un bug ou une faute** : texte coupé, en anglais, faute, jeu figé, patch qui ne s'applique pas ;
+- **Proposer une meilleure traduction** : une formulation plus juste ou plus naturelle.
+
+Indique ta version (ex. FR4.1.5), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
 Le [serveur Discord](https://discord.gg/NWvBjU3kya) sert à discuter et à suivre les nouveautés.
 

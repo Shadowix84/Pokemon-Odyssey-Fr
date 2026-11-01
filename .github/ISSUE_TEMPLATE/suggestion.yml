@@ -1,0 +1,50 @@
+name: Proposer une meilleure traduction
+description: Une formulation plus juste, plus naturelle ou plus fidèle au ton du personnage.
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour ta proposition ! Pour qu'elle puisse être reprise, elle doit respecter les choix de la traduction :
+        tutoiement de Nyx, accords au féminin, mots italiens de Kitt et Rockey gardés, noms officiels français.
+        La place à l'écran est limitée : une proposition plus courte a plus de chances d'être reprise.
+  - type: input
+    id: version
+    attributes:
+      label: Version de la traduction
+      description: Elle s'affiche dans le menu principal (« Continuer FR4.x.x »).
+      placeholder: FR4.1.5
+    validations:
+      required: true
+  - type: input
+    id: lieu
+    attributes:
+      label: Où dans le jeu ?
+      description: Lieu, personnage, menu ou combat.
+      placeholder: "Ex. Mont Dentelé, en parlant à Manfroy"
+    validations:
+      required: true
+  - type: textarea
+    id: actuel
+    attributes:
+      label: Texte actuel
+      placeholder: Recopie le texte tel qu'il s'affiche.
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Ta proposition
+    validations:
+      required: true
+  - type: textarea
+    id: pourquoi
+    attributes:
+      label: Pourquoi ce changement ?
+      placeholder: "Ex. plus naturel, contresens, ne colle pas au caractère du personnage…"
+  - type: textarea
+    id: capture
+    attributes:
+      label: Capture d'écran
+      description: Facultatif, mais très utile.
