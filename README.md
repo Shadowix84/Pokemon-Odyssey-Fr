@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/github/v/release/Shadowix84/Pokemon-Odyssey-Fr?label=patch&color=2ea043" alt="Dernière version du patch"></a>
-  <img src="https://img.shields.io/badge/avancement-22%20%25-orange" alt="Avancement : 22 %">
+  <img src="https://img.shields.io/badge/avancement-27%20%25-orange" alt="Avancement : 27 %">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
   <a href="https://discord.gg/c7SMEeAm9s"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
@@ -33,8 +33,8 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 ## Statut
 
 - Version de la ROM d'origine : v4.1.1 (EXPANDED BAG)
-- Version de la traduction : **FR4.1.5** (traduction partielle, en cours)
-- Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.5 »
+- Version de la traduction : **FR4.1.6** (traduction partielle, en cours)
+- Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.6 »
 
 ## Avancement
 
@@ -43,12 +43,12 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 | Noms (Pokémon, attaques, talents, objets, lieux, dresseurs) | `██████████` 100 % |
 | Menus et messages de combat | `██████████` 100 % |
 | Descriptions des objets, talents et attaques | `██████████` 100 % |
-| Dialogues | `█░░░░░░░░░` 14 % (2 zones sur 16) |
+| Dialogues | `██░░░░░░░░` 23 % (3 zones sur 16) |
 | Descriptions du Pokédex | `░░░░░░░░░░` 0 % |
 | Scripts d'événements | `░░░░░░░░░░` 0 % |
 | Interface secondaire (messages système, aide…) | `░░░░░░░░░░` 0 % |
 
-Au total, environ **22 %** des textes du jeu sont traduits (hors textes probablement jamais affichés).
+Au total, environ **27 %** des textes du jeu sont traduits (hors textes probablement jamais affichés).
 
 ## Ce qui est traduit
 
@@ -69,7 +69,13 @@ Au total, environ **22 %** des textes du jeu sont traduits (hors textes probable
 - Les descriptions des 344 objets, 122 talents et 429 attaques
 - Les 56 catégories du Pokédex inventées par le hack (ex. RenardDivin, LézardAvide, Nécromant)
 
-**Dialogues de l'archipel** *(nouveau en FR4.1.5)*
+**Dialogues d'Etria et des îles** *(nouveau en FR4.1.6)*
+- Etria : Silva et son laboratoire, l'audience avec le roi Ramon et les événements du palais
+- Le Club Krabby : les quêtes (philtre d'amour, Vieil Ambre, gâteau de mariage, Farfuret, Yanma) et un certain Teo
+- Gorenil, l'île de l'automne, et la Ferme Talrega
+- Les îles reprises de Rouge Feu (Île 1, Île 4, Port Île 3, Île du Lointain), avec les noms français officiels (Léo, Ciléo, Olga…)
+
+**Dialogues de l'archipel** *(FR4.1.5)*
 - La Mer de Galazeah : le paquebot, les routes maritimes à débloquer, les pirates et les Boss marins
 - La Route Côtière : Saya et ses Formes d'Etria, le capitaine de l'Exploration Navale
 - Le Mont Dentelé : Manfroy et l'énigme de la stèle
@@ -86,7 +92,7 @@ Au total, environ **22 %** des textes du jeu sont traduits (hors textes probable
    - [MediaFire](https://www.mediafire.com/file/1lka2b8zwav7c6j/Pok%C3%A9mon_Odyssey_COMPLETE_v4.1_%28EXPANDED_BAG%29.zip/file)
    - [Mega](https://mega.nz/file/5Yg2kDDC#4gft_XZ2_1P7Vc-cmcbz-EHWTOzGHqiXigRDyhQ0l2M)
    - [Discussion PokéCommunity](https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/)
-2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.5.bps`) dans la section [Releases](../../releases) de ce dépôt.
+2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.6.bps`) dans la section [Releases](../../releases) de ce dépôt.
 3. **Applique le patch** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : choisis ta ROM, puis le patch `.bps`, et applique le patch. Le site affiche aussi les empreintes de ta ROM, pour [vérifier](#vérifier-ta-rom) que c'est la bonne.
 4. Lance la ROM obtenue sur émulateur ou console.
 
@@ -161,7 +167,8 @@ Il n'y a pas de date fixe : chaque nouvelle version ajoute une zone de dialogues
 - Tout le monde tutoie Nyx, et les accords sont au féminin.
 - Les mots italiens et romains de Kitt et Rockey sont gardés (daje, anvedi, fidate…).
 - Les noms propres inventés restent tels quels (Nyx, Talrega, Yggdrasil) ; les noms descriptifs sont traduits (Coastal Road → Route Côtière).
-- Les textes repris de Rouge Feu utilisent les noms français officiels (Olga, Aldo, Peter, Prof. Chen, Carmin sur Mer…).
+- Les textes repris de Rouge Feu utilisent les noms français officiels (Olga, Aldo, Peter, Léo, Prof. Chen, Carmin sur Mer…).
+- Nyx vouvoie le roi d'Etria (« Votre Majesté »).
 - Chaque personnage garde sa façon de parler : Brody en pirate, Karin avec son parler campagnard, Olympia avec son ton de robot, Manfroy qui s'emporte en majuscules.
 
 ## Limites connues
@@ -174,7 +181,7 @@ Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de 
 
 - [x] Talrega (FR4.1.4)
 - [x] Mer de Galazeah, Route Côtière, Mont Dentelé, Arundel (FR4.1.5)
-- [ ] Etria, Club Krabby, Gorenil, Ferme Talrega…
+- [x] Etria, Club Krabby, Gorenil, Ferme Talrega (FR4.1.6)
 - [ ] Première Strate, Labo Abandonné, Yggdrasil, Centre d'Échange
 - [ ] Deuxième Strate, Grottes de Sable, Repaire des Voleurs, Désert de Golgonda…
 - [ ] Troisième Strate, Café Meumeu, Station Aqua, Temple Marin, Charon…
@@ -191,6 +198,7 @@ Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de 
 
 | Version | Contenu |
 |---|---|
+| FR4.1.6 | Dialogues d'Etria, du Club Krabby, de Gorenil, de la Ferme Talrega et des îles reprises de Rouge Feu |
 | FR4.1.5 | Dialogues de la Mer de Galazeah, de la Route Côtière, du Mont Dentelé et d'Arundel |
 | FR4.1.4 | Dialogues de Talrega (café de Lixin, Capitaines, Guilde, panneaux) |
 | FR4.1.3 | Descriptions des objets, talents et attaques ; catégories du Pokédex inventées par le hack |
@@ -205,7 +213,7 @@ Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyss
 - **Signaler un bug ou une faute** : texte coupé, en anglais, faute, jeu figé, patch qui ne s'applique pas ;
 - **Proposer une meilleure traduction** : une formulation plus juste ou plus naturelle.
 
-Indique ta version (ex. FR4.1.5), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
+Indique ta version (ex. FR4.1.6), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
 Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivre les nouveautés.
 

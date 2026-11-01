@@ -3,6 +3,14 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.6
+
+**Ajouté**
+- Dialogues d'Etria : Silva et son laboratoire, l'audience avec le roi Ramon, les événements du palais, la lettre de Silva
+- Dialogues du Club Krabby : les quêtes (philtre d'amour, Vieil Ambre, gâteau de mariage, Farfuret, Yanma) et Teo
+- Dialogues de Gorenil et de la Ferme Talrega
+- Textes repris de Rouge Feu (Île 1, Île 4, Port Île 3, Île du Lointain : Léo, Ciléo, Olga, la Pension, les autocollants) avec les noms français officiels
+
 ## FR4.1.5
 
 **Ajouté**

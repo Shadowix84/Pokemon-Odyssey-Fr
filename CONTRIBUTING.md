@@ -29,17 +29,17 @@ Garde aussi en tête que la place à l'écran est limitée : une proposition plu
 
 ## 3. Tester la dernière version
 
-À chaque version, quelques points sont à vérifier en jeu. Pour la **FR4.1.5** :
+À chaque version, quelques points sont à vérifier en jeu. Pour la **FR4.1.6** :
 
-- [ ] Le menu principal affiche « Continuer FR4.1.5 »
-- [ ] Route Côtière : la rencontre avec Saya et le choix de la récompense
-- [ ] Route Côtière : Ethan et Olympia qui bousculent Nyx
-- [ ] Quai de Talrega : le capitaine et l'Exploration Navale
-- [ ] Mer de Galazeah : un combat contre un pirate (texte d'intro et de défaite)
-- [ ] Mont Dentelé : Manfroy et l'énigme de la stèle
-- [ ] Arundel : la fille au talisman et la potion d'Endurance
-- [ ] Un Centre Pokémon : les phrases de l'infirmière
-- [ ] Tour Dresseurs : l'accueil et le contre-la-montre
+- [ ] Le menu principal affiche « Continuer FR4.1.6 »
+- [ ] Etria : l'arrivée et la présentation de Silva
+- [ ] Etria : l'audience avec le roi Ramon (le long récit défile sans texte coupé)
+- [ ] Etria : la scène du palais (les répliques en majuscules tiennent dans la boîte)
+- [ ] Etria, labo de Silva : la boutique et le combat contre Olympia
+- [ ] Club Krabby : une quête (ex. le philtre d'amour : 4 Fleurs Rouges et 4 Fleurs Jaunes)
+- [ ] Gorenil : le panneau de l'île et le Ranger (Atterrissage contre 4 Tessons Verts)
+- [ ] La Pension : le gérant et la gérante (niveaux gagnés, prix en $)
+- [ ] Le Maître Pêcheur et la Canne
 - [ ] Des menus : « NOUVEAU NOM », « Mauvais ŒUF », « Point de cueillette » ne sont pas coupés
 
 Si tout va bien, tu peux le dire sur le [Discord](https://discord.gg/c7SMEeAm9s). Si quelque chose cloche, ouvre une issue.
