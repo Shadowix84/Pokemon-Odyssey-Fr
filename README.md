@@ -6,7 +6,7 @@
   <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/github/v/release/Shadowix84/Pokemon-Odyssey-Fr?label=patch&color=2ea043" alt="Dernière version du patch"></a>
   <img src="https://img.shields.io/badge/avancement-22%20%25-orange" alt="Avancement : 22 %">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
-  <a href="https://discord.gg/NWvBjU3kya"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://discord.gg/c7SMEeAm9s"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 # Pokémon Odyssey – Traduction française
@@ -153,7 +153,7 @@ La traduction avance zone par zone : regarde l'[avancement](#avancement) et la [
 <details>
 <summary><b>Quand sort la prochaine version ?</b></summary>
 
-Il n'y a pas de date fixe : chaque nouvelle version ajoute une zone de dialogues. Les sorties sont annoncées sur le [serveur Discord](https://discord.gg/NWvBjU3kya).
+Il n'y a pas de date fixe : chaque nouvelle version ajoute une zone de dialogues. Les sorties sont annoncées sur le [serveur Discord](https://discord.gg/c7SMEeAm9s).
 </details>
 
 ## Choix de traduction
@@ -207,7 +207,7 @@ Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyss
 
 Indique ta version (ex. FR4.1.5), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
-Le [serveur Discord](https://discord.gg/NWvBjU3kya) sert à discuter et à suivre les nouveautés.
+Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivre les nouveautés.
 
 ## Crédits
 

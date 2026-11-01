@@ -42,7 +42,7 @@ Garde aussi en tête que la place à l'écran est limitée : une proposition plu
 - [ ] Tour Dresseurs : l'accueil et le contre-la-montre
 - [ ] Des menus : « NOUVEAU NOM », « Mauvais ŒUF », « Point de cueillette » ne sont pas coupés
 
-Si tout va bien, tu peux le dire sur le [Discord](https://discord.gg/NWvBjU3kya). Si quelque chose cloche, ouvre une issue.
+Si tout va bien, tu peux le dire sur le [Discord](https://discord.gg/c7SMEeAm9s). Si quelque chose cloche, ouvre une issue.
 
 ## Ce qu'il ne faut pas faire
 
