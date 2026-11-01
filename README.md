@@ -87,7 +87,7 @@ Au total, environ **22 %** des textes du jeu sont traduits (hors textes probable
    - [Mega](https://mega.nz/file/5Yg2kDDC#4gft_XZ2_1P7Vc-cmcbz-EHWTOzGHqiXigRDyhQ0l2M)
    - [Discussion PokéCommunity](https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/)
 2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.5.bps`) dans la section [Releases](../../releases) de ce dépôt.
-3. **Applique le patch** avec le patcheur en ligne : [patcher.chronotriggerturkiye.com](https://patcher.chronotriggerturkiye.com/)
+3. **Applique le patch** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : choisis ta ROM, puis le patch `.bps`, et applique le patch. Le site affiche aussi les empreintes de ta ROM, pour [vérifier](#vérifier-ta-rom) que c'est la bonne.
 4. Lance la ROM obtenue sur émulateur ou console.
 
 > Aucune ROM n'est distribuée ici : le patch ne fonctionne que sur la ROM d'origine v4.1.1 (EXPANDED BAG).
@@ -96,7 +96,7 @@ Au total, environ **22 %** des textes du jeu sont traduits (hors textes probable
 
 ## Vérifier ta ROM
 
-Le patch ne fonctionne que sur cette ROM exacte. Pour vérifier la tienne, ouvre-la dans [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : le site affiche son CRC32 et son SHA-1 dès que tu la charges.
+Le patch ne fonctionne que sur cette ROM exacte. Pour vérifier la tienne, ouvre-la dans [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), le même site que pour appliquer le patch : il affiche son CRC32 et son SHA-1 dès que tu la charges.
 
 | | Valeur |
 |---|---|
