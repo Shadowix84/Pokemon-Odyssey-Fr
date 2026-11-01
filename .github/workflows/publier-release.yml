@@ -1,0 +1,66 @@
+# Publier une release en un clic : onglet Actions → « Publier une release » → Run workflow → taper la version (ex. FR4.1.6).
+# Les fichiers doivent déjà être dans le dépôt :
+#   publication/<VERSION>/<NOM>_patch_<VERSION>.bps   (le patch)
+#   publication/<VERSION>/release.md                  (le texte de la release)
+name: Publier une release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version à publier (ex. FR4.1.6)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Vérifier la version et les fichiers
+        id: verif
+        env:
+          VERSION: ${{ inputs.version }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if ! [[ "$VERSION" =~ ^FR[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::Version invalide : « $VERSION ». Format attendu : FR4.1.6 (FR collé au numéro)."
+            exit 1
+          fi
+          DOSSIER="publication/$VERSION"
+          PATCH=$(ls "$DOSSIER"/*_patch_"$VERSION".bps 2>/dev/null | head -n 1 || true)
+          if [ -z "$PATCH" ]; then
+            echo "::error::Patch introuvable : $DOSSIER/<NOM>_patch_$VERSION.bps"
+            exit 1
+          fi
+          if [ ! -s "$DOSSIER/release.md" ]; then
+            echo "::error::Texte de release introuvable : $DOSSIER/release.md"
+            exit 1
+          fi
+          if gh release view "$VERSION" >/dev/null 2>&1 || git ls-remote --exit-code --tags origin "refs/tags/$VERSION" >/dev/null 2>&1; then
+            echo "::error::La release ou le tag $VERSION existe déjà : un tag ne se réutilise jamais."
+            exit 1
+          fi
+          NOM=$(basename "$PATCH" | sed "s/_patch_$VERSION\.bps$//")
+          echo "patch=$PATCH" >> "$GITHUB_OUTPUT"
+          echo "titre=$NOM $VERSION" >> "$GITHUB_OUTPUT"
+          echo "notes=$DOSSIER/release.md" >> "$GITHUB_OUTPUT"
+
+      - name: Créer la release
+        env:
+          VERSION: ${{ inputs.version }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$VERSION" "${{ steps.verif.outputs.patch }}" \
+            --title "${{ steps.verif.outputs.titre }}" \
+            --notes-file "${{ steps.verif.outputs.notes }}" \
+            --target "$GITHUB_SHA" \
+            --latest
+          echo "### Release publiée : ${{ steps.verif.outputs.titre }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "${{ github.server_url }}/${{ github.repository }}/releases/tag/$VERSION" >> "$GITHUB_STEP_SUMMARY"
