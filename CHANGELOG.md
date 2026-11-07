@@ -3,6 +3,23 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.9
+
+Regroupe aussi les versions FR4.1.7 et FR4.1.8, qui n'ont pas été publiées séparément.
+
+**Ajouté**
+- Dialogues de la Première Strate : Karin, les F.O.E., la cueillette, le minage et Magna Vis
+- Dialogues du Labo Abandonné : les voleurs, Brody et l'entrée d'Annette ; la quête du super F.O.E. Tlachtga
+- Dialogues de la Deuxième Strate : le médaillon volé, la rencontre avec Kitt, la fin de la Partie 1, le Repaire des Voleurs, la Gorge de Zanado, le Désert de Golgonda et Rockey
+- Dialogues des Bois d'Arundel, du Fourré Auburn, de l'Institut Météo et de la Grotte d'Athari
+- Dialogues de la Troisième Strate : Manu, les stèles des Grottes Magmatiques, Kozuki et le premier Dragon Abyssal
+- Dialogues du Café Meumeu
+- Le discours d'Yggdrasil avant l'épreuve finale
+- Textes repris de Rouge Feu (Argenta et Pierre, Routes 12 à 16, Flèche des Mers) avec les noms français officiels
+
+**Amélioré**
+- Un « ?” » ou un « !” » ne se retrouve plus seul au début d'une ligne
+
 ## FR4.1.6
 
 **Ajouté**

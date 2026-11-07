@@ -29,18 +29,18 @@ Garde aussi en tête que la place à l'écran est limitée : une proposition plu
 
 ## 3. Tester la dernière version
 
-À chaque version, quelques points sont à vérifier en jeu. Pour la **FR4.1.6** :
+À chaque version, quelques points sont à vérifier en jeu. Pour la **FR4.1.9** :
 
-- [ ] Le menu principal affiche « Continuer FR4.1.6 »
-- [ ] Etria : l'arrivée et la présentation de Silva
-- [ ] Etria : l'audience avec le roi Ramon (le long récit défile sans texte coupé)
-- [ ] Etria : la scène du palais (les répliques en majuscules tiennent dans la boîte)
-- [ ] Etria, labo de Silva : la boutique et le combat contre Olympia
-- [ ] Club Krabby : une quête (ex. le philtre d'amour : 4 Fleurs Rouges et 4 Fleurs Jaunes)
-- [ ] Gorenil : le panneau de l'île et le Ranger (Atterrissage contre 4 Tessons Verts)
-- [ ] La Pension : le gérant et la gérante (niveaux gagnés, prix en $)
-- [ ] Le Maître Pêcheur et la Canne
-- [ ] Des menus : « NOUVEAU NOM », « Mauvais ŒUF », « Point de cueillette » ne sont pas coupés
+- [ ] Le menu principal affiche « Continuer FR4.1.9 »
+- [ ] Première Strate : le réveil de Karin et la partie de pierre-feuille-ciseaux
+- [ ] Première Strate : secouer une plante (« Combien de fois ? », « Tu obtiens … Baie(s) Oran ! »)
+- [ ] Labo Abandonné : l'entrée d'Annette (« TREMBLEZ, SCÉLÉRATS ! »)
+- [ ] Deuxième Strate : la rencontre avec Kitt et les essais de mot de passe devant le repaire
+- [ ] Repaire des Voleurs : le discours d'Olympia à Brody
+- [ ] Désert de Golgonda : Rockey, puis « Deuxième Strate : terminée ! »
+- [ ] Troisième Strate : lire une stèle (« Une feuille est attachée à la stèle : »)
+- [ ] Troisième Strate : le combat contre Manu
+- [ ] Café Meumeu : Malna et sa façon de parler (« Povcatvota… »)
 
 Si tout va bien, tu peux le dire sur le [Discord](https://discord.gg/c7SMEeAm9s). Si quelque chose cloche, ouvre une issue.
 
