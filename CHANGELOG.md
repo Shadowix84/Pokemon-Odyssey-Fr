@@ -3,6 +3,23 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.14
+
+Regroupe aussi les versions FR4.1.10 à FR4.1.13, qui n'ont pas été publiées séparément.
+
+**Ajouté**
+- Station Aqua : le vol des cinq trésors, Napier, Jenetta et Brady, le père pirate de Brody ; le juke-box et le guide des évolutions
+- Charon, la Ferme Brigit, le Temple Marin et le Camp de la Troisième Strate
+- Quatrième Strate : Cassian, le deuxième Dragon Abyssal, la Grotte des Âges et la Grotte Azur
+- Cité Souterraine : la trahison de Frey, la révélation d'Yggdrasil et la Synergie
+- Cinquième Strate : l'autre Nyx, Mathilda, le Sanctuaire Profond et la Chambre Abyssale
+- Sixième Strate : les retrouvailles de Nyx avec son père, Kitt et Rockey, le Fort Abyssal et le Cimetière d'Etria
+- Le prologue à Fibernia et l'écran de choix du mode de jeu
+- Les textes repris de Rouge Feu dans ces zones (Île 6, Île 7, Cap Falaise, Sylphe SARL, Safrania et l'Arène de Morgane, Club Câble), avec les noms français officiels
+
+**Amélioré**
+- Le numéro de version du menu principal n'est plus signalé comme trop long
+
 ## FR4.1.9
 
 Regroupe aussi les versions FR4.1.7 et FR4.1.8, qui n'ont pas été publiées séparément.
