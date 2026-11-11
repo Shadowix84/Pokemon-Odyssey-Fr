@@ -3,6 +3,14 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.15
+
+**Ajouté**
+- Septième Strate : la Forêt de Porcelaine, Asher, l'esprit qui retient le Dragon Abyssal, et le discours d'Yggdrasil
+- Gutrune, médecin et Capitaine de la Septième Strate, et les conversations des Capitaines au camp
+- Labo Porcelaine : la potion d'Amarantos et les six vidéos de recherche de Gutrune sur le mana
+- Temple de Porcelaine : la vérité sur Kitt, le rituel de Darius, l'Œil Abyssal et l'attaque d'Etria
+
 ## FR4.1.14
 
 Regroupe aussi les versions FR4.1.10 à FR4.1.13, qui n'ont pas été publiées séparément.
