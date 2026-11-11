@@ -71,6 +71,11 @@ jobs:
           for f in README.md CHANGELOG.md CONTRIBUTING.md; do
             if [ -f "publication/$VERSION/$f" ]; then cp "publication/$VERSION/$f" "$f"; COPIES+=("$f"); fi
           done
+          # Badge « patch » : adresse fixe qui contient le numéro de version (pas de cache périmé)
+          if grep -q 'img.shields.io/badge/patch-' README.md; then
+            sed -i -E "s#img.shields.io/badge/patch-[^-]+-#img.shields.io/badge/patch-${VERSION}-#" README.md
+            [[ " ${COPIES[*]} " == *" README.md "* ]] || COPIES+=("README.md")
+          fi
           if [ ${#COPIES[@]} -gt 0 ] && [ -n "$(git status --porcelain -- "${COPIES[@]}")" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

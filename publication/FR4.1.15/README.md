@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/github/v/release/Shadowix84/Pokemon-Odyssey-Fr?label=patch&color=2ea043&sort=date&display_name=tag" alt="Dernière version du patch"></a>
+  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.15-2ea043" alt="Dernière version du patch"></a>
   <img src="https://img.shields.io/badge/avancement-60%20%25-orange" alt="Avancement : 60 %">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
   <a href="https://discord.gg/c7SMEeAm9s"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
