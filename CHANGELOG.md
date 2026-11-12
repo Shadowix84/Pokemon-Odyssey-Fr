@@ -3,6 +3,14 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.18
+
+**Ajouté**
+- Combes Bordeaux : le combat final contre l'Être Abyssal, l'Offrande de Porcelaine et le discours de Nyx
+- La mauvaise fin (« Le lendemain qui n'est jamais venu »)
+- Les rencontres de l'après-guerre : Barry à la Rive Lac Savoir, Silver au Lac Colère et Zinnia au Mont Chimnée, avec les noms français officiels (Frimapic, Bonaugure, Koner, Aurore, Louka)
+- Les super F.O.E. du Bois Cascade (Narmer) et de l'Atoll du Nord (Dinogator), l'Île des Pirates et l'Île Érable
+
 ## FR4.1.17
 
 Regroupe aussi la version FR4.1.16, qui n'a pas été publiée séparément.
