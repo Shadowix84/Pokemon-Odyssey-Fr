@@ -33,7 +33,7 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 
 ## Statut
 
-- Version du hack : Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG), sur une base Rouge Feu (*FireRed* USA v1.0)
+- Version du hack : Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG), sur une base Rouge Feu anglaise (« 1636 - Pokémon Fire Red (U)(Squirrels) »)
 - Version de la traduction : **FR4.1.18** (traduction partielle, en cours)
 - Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.18 » (le numéro de la version FR4.1.18)
 
@@ -129,17 +129,19 @@ Au total, environ **68 %** des textes du jeu sont traduits (hors textes probable
 
 Il faut appliquer **deux patchs**, l'un après l'autre : d'abord celui du hack (en anglais), puis celui de la traduction.
 
-1. **Procure-toi la ROM de Pokémon Rouge Feu**, version américaine *FireRed* v1.0 (souvent notée « 1636 » ou « Squirrels »), à partir de ta propre cartouche. Elle n'est fournie ni ici, ni avec le hack.
+1. **Procure-toi la ROM anglaise de Pokémon Rouge Feu** : **« 1636 - Pokémon Fire Red (U)(Squirrels) »**, c'est-à-dire *Pokémon FireRed* en version anglaise (américaine), v1.0, à partir de ta propre cartouche. La version française de Rouge Feu ne marche pas. Cette ROM n'est fournie ni ici, ni avec le hack.
 2. **Télécharge le hack Pokémon Odyssey** (v4.1.1, EXPANDED BAG), au choix :
    - [MediaFire](https://www.mediafire.com/file/1lka2b8zwav7c6j/Pok%C3%A9mon_Odyssey_COMPLETE_v4.1_%28EXPANDED_BAG%29.zip/file)
    - [Mega](https://mega.nz/file/5Yg2kDDC#4gft_XZ2_1P7Vc-cmcbz-EHWTOzGHqiXigRDyhQ0l2M)
    - [Discussion PokéCommunity](https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/)
 
-   Tu obtiens un dossier avec des instructions (en anglais) et un patch `.ups`.
-3. **Applique le patch du hack** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : choisis ta ROM Rouge Feu, puis le patch `.ups`, et applique-le. Tu obtiens **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, en anglais. [Vérifie](#vérifier-ta-rom) ses empreintes : le site les affiche.
+   Tu obtiens un dossier avec des instructions en anglais (`HOW_TO_PLAY.txt`) et le patch `Pokémon Odyssey.ups`.
+3. **Applique le patch du hack** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : dans *ROM file*, choisis `Pokémon Fire Red (U)(Squirrels).gba` ; dans *Patch file*, choisis `Pokémon Odyssey.ups` ; puis clique sur *Apply patch*. Tu obtiens **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, en anglais. [Vérifie](#vérifier-ta-rom) ses empreintes : le site les affiche.
 4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.18.bps`) dans la section [Releases](../../releases) de ce dépôt.
 5. **Applique le patch FR** avec Rom Patcher JS : choisis cette fois la ROM obtenue à l'étape 3, puis le patch `.bps`.
 6. Lance la ROM obtenue sur émulateur ou console.
+
+> Si Rom Patcher JS te renvoie un fichier `.txt` au lieu d'un `.gba`, renomme simplement son extension en `.gba`.
 
 > Aucune ROM n'est distribuée ici, seulement le patch de traduction.
 >
@@ -149,13 +151,13 @@ Il faut appliquer **deux patchs**, l'un après l'autre : d'abord celui du hack (
 
 Chaque patch ne fonctionne que sur une ROM exacte. Pour vérifier la tienne, ouvre-la dans [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), le même site que pour appliquer les patchs : il affiche son CRC32 et son SHA-1 dès que tu la charges.
 
-| | Rouge Feu (avant le patch `.ups`) | Odyssey v4.1.1 EXPANDED BAG (avant le patch FR) |
+| | Pokémon Fire Red (U)(Squirrels), anglais (avant le patch `.ups`) | Odyssey v4.1.1 EXPANDED BAG (avant le patch FR) |
 |---|---|---|
 | Taille | 16 Mo (16 777 216 octets) | 32 Mo (33 554 432 octets) |
 | CRC32 | `DD88761C` | `6C5EE1B2` |
 | SHA-1 | `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc` | `8745ddbdbfadf6abaf66de4e9055923b62eb4668` |
 
-Si ta valeur est différente, ce n'est pas la bonne ROM : pour Rouge Feu, il faut la version américaine v1.0 ; pour Odyssey, refais l'étape 3 à partir de cette ROM Rouge Feu.
+Si ta valeur est différente, ce n'est pas la bonne ROM : pour Rouge Feu, il faut la version anglaise « 1636 - Pokémon Fire Red (U)(Squirrels) », pas la version française ; pour Odyssey, refais l'étape 3 à partir de cette ROM Rouge Feu.
 
 <details>
 <summary>Sans site internet</summary>
@@ -190,9 +192,11 @@ La traduction ne modifie que les textes du jeu : une sauvegarde de la v4.1.1 dev
 <summary><b>Sur quel émulateur jouer ?</b></summary>
 
 Ceux que conseille le hack :
-- **PC / Mac** : mGBA (dernière version)
+- **PC / Mac** : mGBA (version portable), VBA, VBA-M
 - **Android** : MyBoy, PizzaBoy, RetroArch (cœur mGBA), Lemuroid
 - **iOS** : Delta, RetroArch (cœur mGBA), 44VBA
+
+Le jeu fonctionne aussi sur une vraie Game Boy Advance (avec une cartouche flash) et sur les consoles portables comme les Anbernic.
 </details>
 
 <details>
@@ -280,8 +284,8 @@ Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivr
 **What is this?** An unofficial, fan-made French translation of the GBA ROM hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, based on Pokémon FireRed. It is a work in progress: names, menus, battle messages, descriptions and almost all of the story dialogue are already in French.
 
 **How to play**
-1. Start from your own **Pokémon FireRed (USA) v1.0** ROM (CRC32 `DD88761C`).
-2. Download Pokémon Odyssey v4.1.1 EXPANDED BAG (links in [Comment jouer](#comment-jouer)): it comes as a folder with instructions and a `.ups` patch. Apply that `.ups` patch to FireRed with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). The result should have CRC32 `6C5EE1B2`.
+1. Start from your own English **"1636 - Pokémon Fire Red (U)(Squirrels)"** ROM (CRC32 `DD88761C`).
+2. Download Pokémon Odyssey v4.1.1 EXPANDED BAG (links in [Comment jouer](#comment-jouer)): it comes as a folder with `HOW_TO_PLAY.txt` and the `Pokémon Odyssey.ups` patch. Apply that `.ups` patch to FireRed with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). The result should have CRC32 `6C5EE1B2`.
 3. Download the latest French `.bps` patch from the [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest), apply it to the Odyssey ROM from step 2, then play on any GBA emulator or handheld.
 
 No ROM is distributed here, only the translation patch. Each French patch applies directly to the Odyssey v4.1.1 EXPANDED BAG ROM.
