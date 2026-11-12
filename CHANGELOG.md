@@ -77,14 +77,12 @@ Regroupe aussi les versions FR4.1.7 et FR4.1.8, qui n'ont pas été publiées s�
 
 ## FR4.1.4
 
+Regroupe aussi la version FR4.1.3, qui n'a pas été publiée séparément.
+
 **Ajouté**
 - Dialogues de Talrega : les retrouvailles au café de Lixin, les combats contre les Capitaines (Brody, Karin, Rockey, Manu, Cassian, Mathilda, Lixin, Gutrune)
 - La Guilde des Aventuriers, Visil, le professeur Rennac et Annette
 - La boutique de Rikkah, la loterie, la Maison des Combats, les panneaux et les textes d'aide (Endurance, points de minage, F.O.E., Échange Miracle)
-
-## FR4.1.3
-
-**Ajouté**
 - Les descriptions des 344 objets, 122 talents et 429 attaques
 - Les 56 catégories du Pokédex inventées par le hack (ex. RenardDivin, LézardAvide, Nécromant)
 

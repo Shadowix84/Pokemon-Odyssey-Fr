@@ -241,8 +241,7 @@ Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de 
 | FR4.1.9 | Dialogues des Première, Deuxième et Troisième Strates, du Labo Abandonné, du Repaire des Voleurs et du Café Meumeu (regroupe FR4.1.7 et FR4.1.8, non publiées séparément) |
 | FR4.1.6 | Dialogues d'Etria, du Club Krabby, de Gorenil, de la Ferme Talrega et des îles reprises de Rouge Feu |
 | FR4.1.5 | Dialogues de la Mer de Galazeah, de la Route Côtière, du Mont Dentelé et d'Arundel |
-| FR4.1.4 | Dialogues de Talrega (café de Lixin, Capitaines, Guilde, panneaux) |
-| FR4.1.3 | Descriptions des objets, talents et attaques ; catégories du Pokédex inventées par le hack |
+| FR4.1.4 | Dialogues de Talrega (café de Lixin, Capitaines, Guilde, panneaux) ; descriptions des objets, talents et attaques ; catégories du Pokédex inventées par le hack (regroupe FR4.1.3, non publiée séparément) |
 | FR4.1.2 | Première version : noms, lieux, dresseurs, menus et messages de combat |
 
 Le détail de chaque version est dans le [journal des modifications](CHANGELOG.md).
