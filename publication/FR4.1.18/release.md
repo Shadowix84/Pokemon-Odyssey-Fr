@@ -28,8 +28,8 @@ Traduction partielle, en cours. Dans le menu principal, « Continue v4.1.1 » de
 ### Installation
 
 1. Pars de ta ROM anglaise **« 1636 - Pokémon Fire Red (U)(Squirrels) »** (la version française de Rouge Feu ne marche pas).
-2. Télécharge le hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)** (liens dans le [README](https://github.com/Shadowix84/Pokemon-Odyssey-Fr#comment-jouer)) : c'est un dossier avec `HOW_TO_PLAY.txt` et le patch `Pokémon Odyssey.ups`.
-3. Avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), applique `Pokémon Odyssey.ups` sur `Pokémon Fire Red (U)(Squirrels).gba`. Tu obtiens la ROM Odyssey v4.1.1 en anglais (CRC32 `6C5EE1B2`).
+2. Télécharge le hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)** (liens dans le [README](https://github.com/Shadowix84/Pokemon-Odyssey-Fr#comment-jouer)) : c'est un dossier avec `HOW_TO_PLAY.txt` et le patch `Odyssey.ups`.
+3. Avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), applique `Odyssey.ups` sur `Pokémon Fire Red (U)(Squirrels).gba`. Tu obtiens la ROM Odyssey v4.1.1 en anglais (CRC32 `6C5EE1B2`).
 4. Télécharge `Odyssey_patch_FR4.1.18.bps` ci-dessous et applique-le, toujours avec Rom Patcher JS, sur la ROM Odyssey de l'étape 3.
 5. Lance la ROM obtenue sur émulateur ou console.
 
@@ -48,4 +48,4 @@ Les étages de Sylphe SARL sont numérotés comme dans l'ascenseur (ÉTAGE 1 à 
 
 ---
 
-**In English:** unofficial French translation patch for Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG). First apply the hack's `Pokémon Odyssey.ups` patch to "1636 - Pokémon Fire Red (U)(Squirrels)", then apply `Odyssey_patch_FR4.1.18.bps` to the resulting Odyssey v4.1.1 ROM (CRC32 `6C5EE1B2`) with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). No ROM included. Bugs: [issues](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose).
+**In English:** unofficial French translation patch for Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG). First apply the hack's `Odyssey.ups` patch to "1636 - Pokémon Fire Red (U)(Squirrels)", then apply `Odyssey_patch_FR4.1.18.bps` to the resulting Odyssey v4.1.1 ROM (CRC32 `6C5EE1B2`) with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). No ROM included. Bugs: [issues](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose).

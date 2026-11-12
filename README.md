@@ -135,8 +135,8 @@ Il faut appliquer **deux patchs**, l'un après l'autre : d'abord celui du hack (
    - [Mega](https://mega.nz/file/5Yg2kDDC#4gft_XZ2_1P7Vc-cmcbz-EHWTOzGHqiXigRDyhQ0l2M)
    - [Discussion PokéCommunity](https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/)
 
-   Tu obtiens un dossier avec des instructions en anglais (`HOW_TO_PLAY.txt`) et le patch `Pokémon Odyssey.ups`.
-3. **Applique le patch du hack** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : dans *ROM file*, choisis `Pokémon Fire Red (U)(Squirrels).gba` ; dans *Patch file*, choisis `Pokémon Odyssey.ups` ; puis clique sur *Apply patch*. Tu obtiens **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, en anglais. [Vérifie](#vérifier-ta-rom) ses empreintes : le site les affiche.
+   Tu obtiens un dossier avec des instructions en anglais (`HOW_TO_PLAY.txt`) et le patch `Odyssey.ups`.
+3. **Applique le patch du hack** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : dans *ROM file*, choisis `Pokémon Fire Red (U)(Squirrels).gba` ; dans *Patch file*, choisis `Odyssey.ups` ; puis clique sur *Apply patch*. Tu obtiens **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, en anglais. [Vérifie](#vérifier-ta-rom) ses empreintes : le site les affiche.
 4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.18.bps`) dans la section [Releases](../../releases) de ce dépôt.
 5. **Applique le patch FR** avec Rom Patcher JS : choisis cette fois la ROM obtenue à l'étape 3, puis le patch `.bps`.
 6. Lance la ROM obtenue sur émulateur ou console.
@@ -285,7 +285,7 @@ Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivr
 
 **How to play**
 1. Start from your own English **"1636 - Pokémon Fire Red (U)(Squirrels)"** ROM (CRC32 `DD88761C`).
-2. Download Pokémon Odyssey v4.1.1 EXPANDED BAG (links in [Comment jouer](#comment-jouer)): it comes as a folder with `HOW_TO_PLAY.txt` and the `Pokémon Odyssey.ups` patch. Apply that `.ups` patch to FireRed with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). The result should have CRC32 `6C5EE1B2`.
+2. Download Pokémon Odyssey v4.1.1 EXPANDED BAG (links in [Comment jouer](#comment-jouer)): it comes as a folder with `HOW_TO_PLAY.txt` and the `Odyssey.ups` patch. Apply that `.ups` patch to FireRed with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). The result should have CRC32 `6C5EE1B2`.
 3. Download the latest French `.bps` patch from the [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest), apply it to the Odyssey ROM from step 2, then play on any GBA emulator or handheld.
 
 No ROM is distributed here, only the translation patch. Each French patch applies directly to the Odyssey v4.1.1 EXPANDED BAG ROM.
