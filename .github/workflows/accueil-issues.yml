@@ -39,7 +39,7 @@ jobs:
 
           En attendant, vérifie que :
           - le patch a été appliqué sur la ROM d'origine indiquée dans le README (les empreintes sont [ici](${README})) ;
-          - ta version (« Continuer FR4.x.x » dans le menu principal) et l'endroit dans le jeu sont bien indiqués.
+          - ta version (« Continuer v4.x.x » dans le menu principal) et l'endroit dans le jeu sont bien indiqués.
 
           Tu recevras un nouveau message dès que ce sera corrigé.
 

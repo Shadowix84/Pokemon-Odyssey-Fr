@@ -1,7 +1,7 @@
 ## Pokémon Odyssey – Traduction française FR4.1.18
 
 Traduction française non officielle de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
-Traduction partielle, en cours. Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.18 ».
+Traduction partielle, en cours. Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.18 » (le numéro de la version FR4.1.18).
 
 ### Nouveautés de FR4.1.18
 

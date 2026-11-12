@@ -35,7 +35,7 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 
 - Version de la ROM d'origine : v4.1.1 (EXPANDED BAG)
 - Version de la traduction : **FR4.1.18** (traduction partielle, en cours)
-- Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.18 »
+- Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.18 » (le numéro de la version FR4.1.18)
 
 ## Avancement
 

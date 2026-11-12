@@ -13,7 +13,7 @@ body:
     id: version
     attributes:
       label: Version de la traduction
-      description: Elle s'affiche dans le menu principal (« Continuer FR4.x.x »).
+      description: Elle s'affiche dans le menu principal (« Continuer v4.x.x », ou « Continuer FR4.x.x » sur les anciennes versions).
       placeholder: FR4.x.x
     validations:
       required: true
