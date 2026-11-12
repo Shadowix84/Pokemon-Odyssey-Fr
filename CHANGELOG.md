@@ -3,6 +3,14 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.19
+
+**Ajouté**
+- La vraie fin (« L'aube d'une âme nouvelle »), la fin normale et la suite de la mauvaise fin
+- L'épilogue et le mot de l'équipe du hack
+- Les textes repris de Rouge Feu à Cramois'Île (Arène d'AUGUSTE, Labo POKéMON) et sur l'Île 1
+- Tous les dialogues de l'histoire sont maintenant traduits
+
 ## FR4.1.18
 
 **Ajouté**

@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.18-2ea043" alt="Dernière version du patch"></a>
-  <img src="https://img.shields.io/badge/avancement-68%20%25-orange" alt="Avancement : 68 %">
+  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.19-2ea043" alt="Dernière version du patch"></a>
+  <img src="https://img.shields.io/badge/avancement-70%20%25-orange" alt="Avancement : 70 %">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
   <a href="https://discord.gg/c7SMEeAm9s"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
@@ -34,8 +34,8 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 ## Statut
 
 - Version du hack : Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG), sur une base Rouge Feu anglaise (« 1636 - Pokémon Fire Red (U)(Squirrels) »)
-- Version de la traduction : **FR4.1.18** (traduction partielle, en cours)
-- Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.18 » (le numéro de la version FR4.1.18)
+- Version de la traduction : **FR4.1.19** (traduction partielle, en cours)
+- Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.19 » (le numéro de la version FR4.1.19)
 
 ## Avancement
 
@@ -44,12 +44,12 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 | Noms (Pokémon, attaques, talents, objets, lieux, dresseurs) | `██████████` 100 % |
 | Menus et messages de combat | `██████████` 100 % |
 | Descriptions des objets, talents et attaques | `██████████` 100 % |
-| Dialogues | `██████████` 97 % (15 zones sur 16) |
+| Dialogues | `██████████` 100 % (16 zones sur 16) |
 | Descriptions du Pokédex | `░░░░░░░░░░` 0 % |
 | Scripts d'événements | `░░░░░░░░░░` 0 % |
 | Interface secondaire (messages système, aide…) | `░░░░░░░░░░` 0 % |
 
-Au total, environ **68 %** des textes du jeu sont traduits (hors textes probablement jamais affichés).
+Au total, environ **70 %** des textes du jeu sont traduits (hors textes probablement jamais affichés).
 
 ## Ce qui est traduit
 
@@ -70,7 +70,12 @@ Au total, environ **68 %** des textes du jeu sont traduits (hors textes probable
 - Les descriptions des 344 objets, 122 talents et 429 attaques
 - Les 56 catégories du Pokédex inventées par le hack (ex. RenardDivin, LézardAvide, Nécromant)
 
-**Dialogues du combat final et des zones annexes** *(nouveau en FR4.1.18)*
+**Dialogues des fins** *(nouveau en FR4.1.19 : toute l'histoire est maintenant traduite)*
+- La vraie fin, la fin normale et la suite de la mauvaise fin
+- L'épilogue et le mot de l'équipe du hack
+- Les textes repris de Rouge Feu à Cramois'Île (Arène d'AUGUSTE, Labo) et sur l'Île 1
+
+**Dialogues du combat final et des zones annexes** *(FR4.1.18)*
 - Combes Bordeaux : le combat final contre l'Être Abyssal et l'Offrande de Porcelaine
 - La mauvaise fin
 - Les rencontres de l'après-guerre : Barry à la Rive Lac Savoir, Silver au Lac Colère et Zinnia au Mont Chimnée
@@ -137,7 +142,7 @@ Il faut appliquer **deux patchs**, l'un après l'autre : d'abord celui du hack (
 
    Tu obtiens un dossier avec des instructions en anglais (`HOW_TO_PLAY.txt`) et le patch `Odyssey.ups`.
 3. **Applique le patch du hack** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : dans *ROM file*, choisis `Pokémon Fire Red (U)(Squirrels).gba` ; dans *Patch file*, choisis `Odyssey.ups` ; puis clique sur *Apply patch*. Tu obtiens **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, en anglais. [Vérifie](#vérifier-ta-rom) ses empreintes : le site les affiche.
-4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.18.bps`) dans la section [Releases](../../releases) de ce dépôt.
+4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.19.bps`) dans la section [Releases](../../releases) de ce dépôt.
 5. **Applique le patch FR** avec Rom Patcher JS : choisis cette fois la ROM obtenue à l'étape 3, puis le patch `.bps`.
 6. Lance la ROM obtenue sur émulateur ou console.
 
@@ -244,13 +249,14 @@ Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de 
 - [x] Antre Porcelaine, Éclat Abyssal, Céladopole (FR4.1.17)
 - [x] Huitième Strate, Palais Abyssal, Varley (FR4.1.17)
 - [x] Combes Bordeaux (combat final), mauvaise fin, Rive Lac Savoir, Lac Colère, Mont Chimnée, Bois Cascade, Atoll du Nord, Île des Pirates, Île Érable (FR4.1.18)
-- [ ] La bonne fin et la vraie fin
+- [x] La vraie fin, la fin normale et l'épilogue, Cramois'Île, Île 1 (FR4.1.19)
 - [ ] Descriptions du Pokédex, scripts d'événements et interface secondaire
 
 ## Historique des versions
 
 | Version | Contenu |
 |---|---|
+| FR4.1.19 | Dialogues des fins (vraie fin, fin normale, épilogue) et de Cramois'Île : tous les dialogues de l'histoire sont traduits |
 | FR4.1.18 | Dialogues du combat final (Combes Bordeaux), de la mauvaise fin, des rencontres de l'après-guerre (Barry, Silver, Zinnia) et des super F.O.E. du Bois Cascade et de l'Atoll du Nord |
 | FR4.1.17 | Dialogues de l'Antre Porcelaine, de l'Éclat Abyssal, de la Huitième Strate, du Palais Abyssal (fin de la Partie 4) et de Varley ; Céladopole reprise de Rouge Feu (regroupe FR4.1.16, non publiée séparément) |
 | FR4.1.15 | Dialogues de la Septième Strate, du Labo Porcelaine et du Temple de Porcelaine |
@@ -270,7 +276,7 @@ Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyss
 - **Signaler un bug ou une faute** : texte coupé, en anglais, faute, jeu figé, patch qui ne s'applique pas ;
 - **Proposer une meilleure traduction** : une formulation plus juste ou plus naturelle.
 
-Indique ta version (ex. FR4.1.18), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
+Indique ta version (ex. FR4.1.19), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
 Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivre les nouveautés.
 
@@ -281,7 +287,7 @@ Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivr
 
 ## In English
 
-**What is this?** An unofficial, fan-made French translation of the GBA ROM hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, based on Pokémon FireRed. It is a work in progress: names, menus, battle messages, descriptions and almost all of the story dialogue are already in French.
+**What is this?** An unofficial, fan-made French translation of the GBA ROM hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, based on Pokémon FireRed. It is a work in progress: names, menus, battle messages, descriptions and all of the story dialogue are already in French. The Pokédex entries and some secondary texts remain to be done.
 
 **How to play**
 1. Start from your own English **"1636 - Pokémon Fire Red (U)(Squirrels)"** ROM (CRC32 `DD88761C`).
