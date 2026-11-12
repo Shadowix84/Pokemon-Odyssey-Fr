@@ -15,6 +15,10 @@ Traduction partielle, en cours. Dans le menu principal, « Continue v4.1.1 » de
 
 - Les dialogues de la fin de la Septième Strate, de la Huitième Strate et du Palais Abyssal (fin de la Partie 4)
 
+**Amélioré**
+- Le menu principal affiche « Continuer v4.1.18 »
+- Les instructions d'installation expliquent les deux patchs (le `.ups` du hack, puis le patch FR)
+
 ### Ce qui reste en anglais
 
 - La bonne fin et la vraie fin
@@ -23,12 +27,13 @@ Traduction partielle, en cours. Dans le menu principal, « Continue v4.1.1 » de
 
 ### Installation
 
-1. Récupère la ROM d'origine **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)** (liens et empreintes dans le [README](https://github.com/Shadowix84/Pokemon-Odyssey-Fr#comment-jouer)).
-2. Télécharge `Odyssey_patch_FR4.1.18.bps` ci-dessous.
-3. Applique le patch avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : choisis ta ROM, puis le patch `.bps`.
-4. Lance la ROM obtenue sur émulateur ou console.
+1. Pars de ta ROM **Pokémon Rouge Feu** (version américaine *FireRed* v1.0).
+2. Télécharge le hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)** (liens dans le [README](https://github.com/Shadowix84/Pokemon-Odyssey-Fr#comment-jouer)) : c'est un dossier avec des instructions et un patch `.ups`.
+3. Avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), applique ce patch `.ups` sur Rouge Feu. Tu obtiens la ROM Odyssey v4.1.1 en anglais (CRC32 `6C5EE1B2`).
+4. Télécharge `Odyssey_patch_FR4.1.18.bps` ci-dessous et applique-le, toujours avec Rom Patcher JS, sur la ROM Odyssey de l'étape 3.
+5. Lance la ROM obtenue sur émulateur ou console.
 
-> Le patch s'applique directement sur la ROM d'origine : inutile d'appliquer les versions précédentes avant.
+> Le patch FR s'applique directement sur la ROM Odyssey v4.1.1 : inutile d'appliquer les versions FR précédentes avant.
 > Aucune ROM n'est distribuée ici.
 
 ### Limites connues
@@ -43,4 +48,4 @@ Les étages de Sylphe SARL sont numérotés comme dans l'ascenseur (ÉTAGE 1 à 
 
 ---
 
-**In English:** unofficial French translation patch for Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG). Apply `Odyssey_patch_FR4.1.18.bps` to the original ROM (CRC32 `6C5EE1B2`) with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). No ROM included. Bugs: [issues](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose).
+**In English:** unofficial French translation patch for Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG). First apply the hack's `.ups` patch to Pokémon FireRed (USA) v1.0, then apply `Odyssey_patch_FR4.1.18.bps` to the resulting Odyssey v4.1.1 ROM (CRC32 `6C5EE1B2`) with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). No ROM included. Bugs: [issues](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose).

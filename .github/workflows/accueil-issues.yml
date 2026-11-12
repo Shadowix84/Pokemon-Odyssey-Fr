@@ -38,7 +38,7 @@ jobs:
           Ton issue est bien reçue et **en cours de traitement** : je vérifie le problème dans la version indiquée, puis je te réponds ici.
 
           En attendant, vérifie que :
-          - le patch a été appliqué sur la ROM d'origine indiquée dans le README (les empreintes sont [ici](${README})) ;
+          - le patch FR a été appliqué sur la ROM Odyssey v4.1.1 indiquée dans le README (les empreintes sont [ici](${README})) ;
           - ta version (« Continuer v4.x.x » dans le menu principal) et l'endroit dans le jeu sont bien indiqués.
 
           Tu recevras un nouveau message dès que ce sera corrigé.
