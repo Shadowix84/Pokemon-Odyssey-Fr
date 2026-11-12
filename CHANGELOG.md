@@ -3,6 +3,19 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch s'applique directement sur la ROM d'origine. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.17
+
+Regroupe aussi la version FR4.1.16, qui n'a pas été publiée séparément.
+
+**Ajouté**
+- Antre Porcelaine : les tombes des Yggdroïdes, les souvenirs d'Olympia, Zeus et Héra
+- Le cœur de l'Éclat Abyssal : le combat contre Aimée et ses adieux
+- Huitième Strate : les tentacules, le camp de base, le plan d'assaut et les conversations avant la bataille ; les souvenirs d'Aimée
+- Palais Abyssal : la libération de Kitt, Kozuki, la punition de Frey, Visil, le Progéniteur et la fin de la Partie 4
+- Varley et le Bois de Varley : Simularbre, le temple et le super F.O.E. Dragon Avide
+- Les textes repris de Rouge Feu dans ces zones (Céladopole, son Grand Magasin, le Casino Rocket et l'Arène d'ERIKA ; la maison des Badges, le Magasin de vélos, l'herboriste de la Poudre Baie), avec les noms français officiels
+- Une courte présentation en anglais dans le README
+
 ## FR4.1.15
 
 **Ajouté**

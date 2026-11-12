@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.15-2ea043" alt="Dernière version du patch"></a>
-  <img src="https://img.shields.io/badge/avancement-60%20%25-orange" alt="Avancement : 60 %">
+  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.17-2ea043" alt="Dernière version du patch"></a>
+  <img src="https://img.shields.io/badge/avancement-67%20%25-orange" alt="Avancement : 67 %">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
   <a href="https://discord.gg/c7SMEeAm9s"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
@@ -13,7 +13,7 @@
 
 Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)** : une aventure dans le Labyrinthe d'Yggdrasil et ses huit Strates, sur une base Pokémon Rouge Feu.
 
-> **[⬇ Télécharger le dernier patch](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest)** · [Comment jouer](#comment-jouer) · [Signaler un bug](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose)
+> **[⬇ Télécharger le dernier patch](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest)** · [Comment jouer](#comment-jouer) · [Signaler un bug](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose) · 🇬🇧 [In English](#in-english)
 
 ## Sommaire
 
@@ -29,12 +29,13 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 - [Historique des versions](#historique-des-versions)
 - [Signaler un bug ou proposer une traduction](#signaler-un-bug-ou-proposer-une-traduction)
 - [Crédits](#crédits)
+- [In English](#in-english)
 
 ## Statut
 
 - Version de la ROM d'origine : v4.1.1 (EXPANDED BAG)
-- Version de la traduction : **FR4.1.15** (traduction partielle, en cours)
-- Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.15 »
+- Version de la traduction : **FR4.1.17** (traduction partielle, en cours)
+- Dans le menu principal, « Continue v4.1.1 » devient « Continuer FR4.1.17 »
 
 ## Avancement
 
@@ -43,12 +44,12 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 | Noms (Pokémon, attaques, talents, objets, lieux, dresseurs) | `██████████` 100 % |
 | Menus et messages de combat | `██████████` 100 % |
 | Descriptions des objets, talents et attaques | `██████████` 100 % |
-| Dialogues | `████████░░` 79 % (12 zones sur 16) |
+| Dialogues | `█████████░` 94 % (14 zones sur 16) |
 | Descriptions du Pokédex | `░░░░░░░░░░` 0 % |
 | Scripts d'événements | `░░░░░░░░░░` 0 % |
 | Interface secondaire (messages système, aide…) | `░░░░░░░░░░` 0 % |
 
-Au total, environ **60 %** des textes du jeu sont traduits (hors textes probablement jamais affichés).
+Au total, environ **67 %** des textes du jeu sont traduits (hors textes probablement jamais affichés).
 
 ## Ce qui est traduit
 
@@ -69,7 +70,15 @@ Au total, environ **60 %** des textes du jeu sont traduits (hors textes probable
 - Les descriptions des 344 objets, 122 talents et 429 attaques
 - Les 56 catégories du Pokédex inventées par le hack (ex. RenardDivin, LézardAvide, Nécromant)
 
-**Dialogues de la Septième Strate** *(nouveau en FR4.1.15)*
+**Dialogues de la fin de la Septième Strate et de la Huitième Strate** *(nouveau en FR4.1.17)*
+- Antre Porcelaine : les tombes des Yggdroïdes et les souvenirs d'Olympia
+- Le cœur de l'Éclat Abyssal
+- Huitième Strate : le camp de base, le plan d'assaut et les souvenirs d'Aimée
+- Palais Abyssal : la libération de Kitt, Kozuki, Frey, Visil et la fin de la Partie 4
+- Varley et le Bois de Varley
+- Les textes repris de Rouge Feu dans ces zones (Céladopole, son Grand Magasin, le Casino Rocket et l'Arène d'ERIKA, le Magasin de vélos), avec les noms français officiels
+
+**Dialogues de la Septième Strate** *(FR4.1.15)*
 - Forêt de Porcelaine : Asher, l'esprit qui retient le Dragon Abyssal, et le discours d'Yggdrasil
 - Gutrune, médecin et Capitaine de la Septième Strate, et les Capitaines au camp
 - Labo Porcelaine : la potion d'Amarantos et les vidéos de recherche de Gutrune sur le mana
@@ -116,7 +125,7 @@ Au total, environ **60 %** des textes du jeu sont traduits (hors textes probable
    - [MediaFire](https://www.mediafire.com/file/1lka2b8zwav7c6j/Pok%C3%A9mon_Odyssey_COMPLETE_v4.1_%28EXPANDED_BAG%29.zip/file)
    - [Mega](https://mega.nz/file/5Yg2kDDC#4gft_XZ2_1P7Vc-cmcbz-EHWTOzGHqiXigRDyhQ0l2M)
    - [Discussion PokéCommunity](https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/)
-2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.15.bps`) dans la section [Releases](../../releases) de ce dépôt.
+2. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.17.bps`) dans la section [Releases](../../releases) de ce dépôt.
 3. **Applique le patch** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : choisis ta ROM, puis le patch `.bps`, et applique le patch. Le site affiche aussi les empreintes de ta ROM, pour [vérifier](#vérifier-ta-rom) que c'est la bonne.
 4. Lance la ROM obtenue sur émulateur ou console.
 
@@ -216,8 +225,8 @@ Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de 
 - [x] Cinquième Strate, Sanctuaire Profond, Chambre Abyssale (FR4.1.14)
 - [x] Sixième Strate, Fort Abyssal, Cimetière Etria (FR4.1.14)
 - [x] Septième Strate, Labo Porcelaine, Temple de Porcelaine (FR4.1.15)
-- [ ] Antre Porcelaine, Éclat Abyssal
-- [ ] Huitième Strate, Palais Abyssal, Varley
+- [x] Antre Porcelaine, Éclat Abyssal, Céladopole (FR4.1.17)
+- [x] Huitième Strate, Palais Abyssal, Varley (FR4.1.17)
 - [ ] Zones annexes (Île des Pirates, Bois Cascade, Île Érable, Atoll du Nord…)
 - [ ] Les fins
 - [ ] Descriptions du Pokédex, scripts d'événements et interface secondaire
@@ -226,6 +235,7 @@ Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de 
 
 | Version | Contenu |
 |---|---|
+| FR4.1.17 | Dialogues de l'Antre Porcelaine, de l'Éclat Abyssal, de la Huitième Strate, du Palais Abyssal (fin de la Partie 4) et de Varley ; Céladopole reprise de Rouge Feu (regroupe FR4.1.16, non publiée séparément) |
 | FR4.1.15 | Dialogues de la Septième Strate, du Labo Porcelaine et du Temple de Porcelaine |
 | FR4.1.14 | Dialogues de la Station Aqua, de Charon, des Quatrième, Cinquième et Sixième Strates, de la Cité Souterraine, du Fort Abyssal et du Cimetière d'Etria (regroupe FR4.1.10 à FR4.1.13, non publiées séparément) |
 | FR4.1.9 | Dialogues des Première, Deuxième et Troisième Strates, du Labo Abandonné, du Repaire des Voleurs et du Café Meumeu (regroupe FR4.1.7 et FR4.1.8, non publiées séparément) |
@@ -244,7 +254,7 @@ Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyss
 - **Signaler un bug ou une faute** : texte coupé, en anglais, faute, jeu figé, patch qui ne s'applique pas ;
 - **Proposer une meilleure traduction** : une formulation plus juste ou plus naturelle.
 
-Indique ta version (ex. FR4.1.15), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
+Indique ta version (ex. FR4.1.17), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
 Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivre les nouveautés.
 
@@ -252,6 +262,21 @@ Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivr
 
 - Équipe de Pokémon Odyssey, pour la ROM hack d'origine
 - Traduction française : Shadowix84
+
+## In English
+
+**What is this?** An unofficial, fan-made French translation of the GBA ROM hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, based on Pokémon FireRed. It is a work in progress: names, menus, battle messages, descriptions and most of the story dialogue are already in French.
+
+**How to play**
+1. Get the original ROM **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)** (links in [Comment jouer](#comment-jouer)). Check it with the CRC32 `6C5EE1B2`.
+2. Download the latest `.bps` patch from the [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest).
+3. Apply it with [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), then play the patched ROM on any GBA emulator or handheld.
+
+No ROM is distributed here, only the translation patch. Each patch applies directly to the original ROM.
+
+**Bugs and feedback:** open an [issue](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose) (English is fine) or join the [Discord](https://discord.gg/c7SMEeAm9s).
+
+**Credits:** the Pokémon Odyssey team for the original hack; French translation by Shadowix84.
 
 ## Mentions
 
