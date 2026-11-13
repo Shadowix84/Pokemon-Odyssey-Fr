@@ -3,7 +3,18 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.20
+
+**Ajouté**
+- Les 410 descriptions du Pokédex, avec les mesures en système métrique comme dans le Pokédex français
+- Les fiches propres au hack : formes Synergie, Pokémon corrompus, gardiens d'Yggdrasil
+
+**Corrigé**
+- Antre Porcelaine : le souvenir d'Olympia devant la tombe d'Hephaestus (« Analyse... Aucune amélioration détectée ») était cassé dans FR4.1.17, FR4.1.18 et FR4.1.19 (texte illisible ou plantage possible). L'outil de traduction avait écrasé l'adresse de ce texte ; il ignore désormais ce type de fausse adresse et la vérification bloque la livraison si un octet change au mauvais endroit.
+
 ## FR4.1.19
+
+> ⚠️ Contient le bug de l'Antre Porcelaine (souvenir d'Hephaestus), corrigé dans FR4.1.20.
 
 **Ajouté**
 - La vraie fin (« L'aube d'une âme nouvelle »), la fin normale et la suite de la mauvaise fin
@@ -12,6 +23,8 @@ Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPAN
 - Tous les dialogues de l'histoire sont maintenant traduits
 
 ## FR4.1.18
+
+> ⚠️ Contient le bug de l'Antre Porcelaine (souvenir d'Hephaestus), corrigé dans FR4.1.20.
 
 **Ajouté**
 - Combes Bordeaux : le combat final contre l'Être Abyssal, l'Offrande de Porcelaine et le discours de Nyx
@@ -24,6 +37,8 @@ Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPAN
 - Les instructions d'installation expliquent les deux patchs : le `.ups` du hack sur Rouge Feu, puis le patch FR
 
 ## FR4.1.17
+
+> ⚠️ Contient le bug de l'Antre Porcelaine (souvenir d'Hephaestus), corrigé dans FR4.1.20.
 
 Regroupe aussi la version FR4.1.16, qui n'a pas été publiée séparément.
 
