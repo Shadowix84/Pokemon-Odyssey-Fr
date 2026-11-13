@@ -6,6 +6,8 @@
 # puis fermées avec le message « Corrigé dans <VERSION> » et le lien du patch (message 3).
 # Facultatif : README.md, CHANGELOG.md, CONTRIBUTING.md dans le même dossier -> copiés à la racine
 # du dépôt au moment de la publication, pour que la page d'accueil et la release changent ensemble.
+# Facultatif : avertissement_anciennes_versions.md -> ajouté en haut des anciennes releases listées
+# sur sa 1re ligne (<!-- versions: FR4.1.17 FR4.1.18 -->), avec « ⚠️ bug » dans leur titre.
 name: Publier une release
 
 on:
@@ -140,3 +142,28 @@ jobs:
             gh api -X PATCH "repos/$REPO/issues/$NUM" -f state=closed -f state_reason=completed > /dev/null
             echo "- #$NUM fermée" >> "$GITHUB_STEP_SUMMARY"
           done < corrigees.tsv
+
+      - name: Avertir dans les anciennes releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          F="publication/$VERSION/avertissement_anciennes_versions.md"
+          [ -f "$F" ] || exit 0
+          LISTE=$(head -n 1 "$F" | sed -E 's/.*versions:([^>]*)-->.*/\1/')
+          tail -n +2 "$F" > avert.md
+          for TAG in $LISTE; do
+            if ! gh release view "$TAG" >/dev/null 2>&1; then
+              echo "- $TAG : release introuvable, ignorée" >> "$GITHUB_STEP_SUMMARY"; continue
+            fi
+            gh release view "$TAG" --json body --jq .body > ancien.md
+            if grep -q "Version avec un bug" ancien.md; then
+              echo "- $TAG : avertissement déjà présent" >> "$GITHUB_STEP_SUMMARY"; continue
+            fi
+            cat avert.md ancien.md > nouveau.md
+            TITRE=$(gh release view "$TAG" --json name --jq .name)
+            case "$TITRE" in *"⚠️"*) ;; *) TITRE="$TITRE ⚠️ bug, voir $VERSION" ;; esac
+            gh release edit "$TAG" --notes-file nouveau.md --title "$TITRE"
+            echo "- $TAG : avertissement ajouté" >> "$GITHUB_STEP_SUMMARY"
+          done
