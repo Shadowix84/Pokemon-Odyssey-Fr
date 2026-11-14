@@ -3,6 +3,11 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.32
+
+**Corrigé**
+- Menu QUÊTES : l'en-tête « Side Quest · Mode · Prev. · Next » était une image restée en anglais ; elle est redessinée avec la petite police du jeu : « Quêtes annexes · SEL Mode · L Préc. · R Suiv. » — issue #6
+
 ## FR4.1.31
 
 **Corrigé**
