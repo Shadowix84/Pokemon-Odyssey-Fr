@@ -3,7 +3,26 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.30
+
+Regroupe FR4.1.29, non publiée séparément. **Correctif important : mets à jour, ta sauvegarde reste compatible.**
+
+**Corrigé**
+- Le jeu **se figeait** quand un Pokémon de l'équipe resté hors du combat montait de niveau (vu en jeu après une capture). Bug présent de FR4.1.5 à FR4.1.28 : l'outil avait pris un morceau du code du jeu pour une adresse de texte et l'avait modifié.
+- Audit complet des 12 220 adresses de texte modifiées par la traduction : 13 autres fausses adresses écartées. Elles touchaient deux autres morceaux du code du jeu (FR4.1.5 à FR4.1.28), le combat contre le Garçon de la Sixième Strate et la scène du Lokhlass à la Station Aqua (FR4.1.14 à FR4.1.28), et quelques graphismes ou sons (toutes les versions).
+- L'outil exige désormais une preuve avant de modifier une adresse, et chaque version est testée sur émulateur avec détection automatique des blocages.
+
+**Ajouté**
+- Le message de fin de combat « … gagne … points EXP. ! », resté en anglais
+
+**Modifié**
+- Les descriptions du SAC sont coupées à la largeur de l'écran (elles dépassaient à droite)
+- Fenêtre de sauvegarde et carte de dresseur : « Temps » au lieu d'« Heure », « Argent » au lieu d'« Équilibre »
+- Écran Continuer : « Équipe » et « Temps » traduits
+
 ## FR4.1.28
+
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
 
 Regroupe FR4.1.24 à FR4.1.27, non publiées séparément. **Traduction complète.**
 
@@ -16,6 +35,8 @@ Regroupe FR4.1.24 à FR4.1.27, non publiées séparément. **Traduction complèt
 - Les textes sans aucun pointeur (jamais affichés) et les morceaux de scripts : il n’y a rien à afficher
 
 ## FR4.1.23
+
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
 
 Regroupe FR4.1.21 et FR4.1.22, non publiées séparément.
 
@@ -32,6 +53,8 @@ Regroupe FR4.1.21 et FR4.1.22, non publiées séparément.
 
 ## FR4.1.20
 
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
+
 **Ajouté**
 - Les 410 descriptions du Pokédex, avec les mesures en système métrique comme dans le Pokédex français
 - Les fiches propres au hack : formes Synergie, Pokémon corrompus, gardiens d'Yggdrasil
@@ -40,6 +63,8 @@ Regroupe FR4.1.21 et FR4.1.22, non publiées séparément.
 - Antre Porcelaine : le souvenir d'Olympia devant la tombe d'Hephaestus (« Analyse... Aucune amélioration détectée ») était cassé dans FR4.1.17, FR4.1.18 et FR4.1.19 (texte illisible ou plantage possible). L'outil de traduction avait écrasé l'adresse de ce texte ; il ignore désormais ce type de fausse adresse et la vérification bloque la livraison si un octet change au mauvais endroit.
 
 ## FR4.1.19
+
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
 
 > ⚠️ Contient le bug de l'Antre Porcelaine (souvenir d'Hephaestus), corrigé dans FR4.1.20.
 
@@ -50,6 +75,8 @@ Regroupe FR4.1.21 et FR4.1.22, non publiées séparément.
 - Tous les dialogues de l'histoire sont maintenant traduits
 
 ## FR4.1.18
+
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
 
 > ⚠️ Contient le bug de l'Antre Porcelaine (souvenir d'Hephaestus), corrigé dans FR4.1.20.
 
@@ -64,6 +91,8 @@ Regroupe FR4.1.21 et FR4.1.22, non publiées séparément.
 - Les instructions d'installation expliquent les deux patchs : le `.ups` du hack sur Rouge Feu, puis le patch FR
 
 ## FR4.1.17
+
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
 
 > ⚠️ Contient le bug de l'Antre Porcelaine (souvenir d'Hephaestus), corrigé dans FR4.1.20.
 
@@ -80,6 +109,8 @@ Regroupe aussi la version FR4.1.16, qui n'a pas été publiée séparément.
 
 ## FR4.1.15
 
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
+
 **Ajouté**
 - Septième Strate : la Forêt de Porcelaine, Asher, l'esprit qui retient le Dragon Abyssal, et le discours d'Yggdrasil
 - Gutrune, médecin et Capitaine de la Septième Strate, et les conversations des Capitaines au camp
@@ -87,6 +118,8 @@ Regroupe aussi la version FR4.1.16, qui n'a pas été publiée séparément.
 - Temple de Porcelaine : la vérité sur Kitt, le rituel de Darius, l'Œil Abyssal et l'attaque d'Etria
 
 ## FR4.1.14
+
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
 
 Regroupe aussi les versions FR4.1.10 à FR4.1.13, qui n'ont pas été publiées séparément.
 
@@ -105,6 +138,8 @@ Regroupe aussi les versions FR4.1.10 à FR4.1.13, qui n'ont pas été publiées 
 
 ## FR4.1.9
 
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
+
 Regroupe aussi les versions FR4.1.7 et FR4.1.8, qui n'ont pas été publiées séparément.
 
 **Ajouté**
@@ -122,6 +157,8 @@ Regroupe aussi les versions FR4.1.7 et FR4.1.8, qui n'ont pas été publiées s�
 
 ## FR4.1.6
 
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
+
 **Ajouté**
 - Dialogues d'Etria : Silva et son laboratoire, l'audience avec le roi Ramon, les événements du palais, la lettre de Silva
 - Dialogues du Club Krabby : les quêtes (philtre d'amour, Vieil Ambre, gâteau de mariage, Farfuret, Yanma) et Teo
@@ -129,6 +166,8 @@ Regroupe aussi les versions FR4.1.7 et FR4.1.8, qui n'ont pas été publiées s�
 - Textes repris de Rouge Feu (Île 1, Île 4, Port Île 3, Île du Lointain : Léo, Ciléo, Olga, la Pension, les autocollants) avec les noms français officiels
 
 ## FR4.1.5
+
+> ⚠️ Contient des bugs (gel au gain de niveau hors combat et autres octets abîmés), corrigés dans FR4.1.30.
 
 **Ajouté**
 - Dialogues de la Mer de Galazeah : le paquebot, les routes maritimes à débloquer, les pirates et les Boss marins
@@ -138,6 +177,8 @@ Regroupe aussi les versions FR4.1.7 et FR4.1.8, qui n'ont pas été publiées s�
 - Textes repris de Rouge Feu (Ligue, Parc Safari, Tour Dresseurs, Centres Pokémon) avec les noms français officiels
 
 ## FR4.1.4
+
+> ⚠️ Contient des bugs (quelques octets hors texte abîmés), corrigés dans FR4.1.30.
 
 Regroupe aussi la version FR4.1.3, qui n'a pas été publiée séparément.
 
@@ -152,6 +193,8 @@ Regroupe aussi la version FR4.1.3, qui n'a pas été publiée séparément.
 - Les retours à la ligne ne coupent plus « Déf. Spé. » et ne laissent plus un « ! », « ? » ou « : » seul en début de ligne
 
 ## FR4.1.2
+
+> ⚠️ Contient des bugs (quelques octets hors texte abîmés), corrigés dans FR4.1.30.
 
 Première version.
 
