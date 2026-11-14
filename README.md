@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.30-2ea043" alt="Dernière version du patch"></a>
+  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.31-2ea043" alt="Dernière version du patch"></a>
   <img src="https://img.shields.io/badge/avancement-100%20%25-brightgreen" alt="Avancement : 100 %">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
   <a href="https://discord.gg/c7SMEeAm9s"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
@@ -35,8 +35,8 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 ## Statut
 
 - Version du hack : Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG), sur une base Rouge Feu anglaise (« 1636 - Pokémon Fire Red (U)(Squirrels) »)
-- Version de la traduction : **FR4.1.30** (traduction complète)
-- Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.30 » (le numéro de la version FR4.1.30)
+- Version de la traduction : **FR4.1.31** (traduction complète)
+- Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.31 » (le numéro de la version FR4.1.31)
 
 > ⚠️ **Toutes les versions avant FR4.1.30 ont des bugs** (gel du jeu quand un Pokémon hors combat monte de niveau, etc.). Mets à jour : ta sauvegarde reste compatible. Détail dans [Versions à éviter](#versions-à-éviter).
 
@@ -163,7 +163,7 @@ Il faut appliquer **deux patchs**, l'un après l'autre : d'abord celui du hack (
 
    Tu obtiens un dossier avec des instructions en anglais (`HOW_TO_PLAY.txt`) et le patch `Odyssey.ups`.
 3. **Applique le patch du hack** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : dans *ROM file*, choisis `Pokémon Fire Red (U)(Squirrels).gba` ; dans *Patch file*, choisis `Odyssey.ups` ; puis clique sur *Apply patch*. Tu obtiens **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, en anglais. [Vérifie](#vérifier-ta-rom) ses empreintes : le site les affiche.
-4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.30.bps`) dans la section [Releases](../../releases) de ce dépôt.
+4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.31.bps`) dans la section [Releases](../../releases) de ce dépôt.
 5. **Applique le patch FR** avec Rom Patcher JS : choisis cette fois la ROM obtenue à l'étape 3, puis le patch `.bps`.
 6. Lance la ROM obtenue sur émulateur ou console.
 
@@ -263,7 +263,7 @@ L'outil de traduction avait modifié par erreur quelques octets qui ne sont pas 
 
 Environ 200 textes sont plus larges que l'original. Après vérification avec la police du jeu, la plupart ont la place de s'afficher ; une centaine de libellés de menu (ex. « NOUVEAU NOM », « Point de cueillette ») peuvent encore être coupés à l'écran et sont en cours de vérification en jeu.
 
-Restent en anglais : l'en-tête du menu des quêtes annexes (« Side Quest / Prev. / Next ») et le « Here you are! Thank you! » de la boutique.
+Reste en anglais : l'en-tête du menu des quêtes annexes (« Side Quest / Prev. / Next »).
 
 La taille des Magicarpe et des Scarhino s'affiche en pouces : c'est le jeu d'origine qui fait ce calcul.
 
@@ -295,6 +295,7 @@ Les prochaines versions traduisent les dialogues zone par zone, dans l'ordre de 
 
 | Version | Contenu |
 |---|---|
+| FR4.1.31 | Message de la boutique « Voilà ! Merci ! » traduit ; descriptions des CT et CS remises en forme pour la Boîte CT (issues #2 et #3) |
 | FR4.1.30 | **Correctif important** : gel au gain de niveau hors combat et autres octets modifiés par erreur dans toutes les versions précédentes (audit complet de la ROM) ; message de gain d'EXP, descriptions du SAC, « Temps », « Argent », écran Continuer (regroupe FR4.1.29, non publiée séparément) |
 | FR4.1.28 | ⚠️ Bugs corrigés dans FR4.1.30. Traduction complète : crédits de fin et textes de Rouge Feu restés dans la ROM (regroupe FR4.1.24 à FR4.1.27, non publiées séparément) |
 | FR4.1.23 | ⚠️ Bugs corrigés dans FR4.1.30. Scripts du hack (Journal de quête, Codex, niveau maximum, scènes de Karin restées en italien) et interface secondaire de Rouge Feu (AIDE, VÉRIF. STARS, messages des menus) (regroupe FR4.1.21 et FR4.1.22, non publiées séparément) |
@@ -319,7 +320,7 @@ Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyss
 - **Signaler un bug ou une faute** : texte coupé, en anglais, faute, jeu figé, patch qui ne s'applique pas ;
 - **Proposer une meilleure traduction** : une formulation plus juste ou plus naturelle.
 
-Indique ta version (ex. FR4.1.30), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
+Indique ta version (ex. FR4.1.31), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
 Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivre les nouveautés.
 

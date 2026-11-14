@@ -3,6 +3,12 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.31
+
+**Corrigé**
+- BOUTIQUE : « Here you are! Thank you! » après un achat est traduit (« Voilà ! Merci ! ») — issue #2
+- Boîte CT : les descriptions des CT et des CS étaient coupées à droite ; elles tiennent maintenant sur 4 lignes courtes, comme en anglais (Ultralaser et Plénitude raccourcies) — issue #3
+
 ## FR4.1.30
 
 Regroupe FR4.1.29, non publiée séparément. **Correctif important : mets à jour, ta sauvegarde reste compatible.**
