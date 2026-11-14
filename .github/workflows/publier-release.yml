@@ -8,6 +8,7 @@
 # du dépôt au moment de la publication, pour que la page d'accueil et la release changent ensemble.
 # Facultatif : avertissement_anciennes_versions.md -> ajouté en haut des anciennes releases listées
 # sur sa 1re ligne (<!-- versions: FR4.1.17 FR4.1.18 -->), avec « ⚠️ bug » dans leur titre.
+# Un marqueur <!-- avert-FRx.y.z --> dans le fichier permet d’avertir à nouveau une release déjà avertie.
 name: Publier une release
 
 on:
@@ -158,12 +159,15 @@ jobs:
               echo "- $TAG : release introuvable, ignorée" >> "$GITHUB_STEP_SUMMARY"; continue
             fi
             gh release view "$TAG" --json body --jq .body > ancien.md
-            if grep -q "Version avec un bug" ancien.md; then
+            # un avertissement par version corrective : on ne l'ajoute pas deux fois
+            if grep -q "avert-$VERSION" ancien.md || { ! grep -q "avert-" avert.md && grep -q "Version avec un bug" ancien.md; }; then
               echo "- $TAG : avertissement déjà présent" >> "$GITHUB_STEP_SUMMARY"; continue
             fi
             cat avert.md ancien.md > nouveau.md
             TITRE=$(gh release view "$TAG" --json name --jq .name)
-            case "$TITRE" in *"⚠️"*) ;; *) TITRE="$TITRE ⚠️ bug, voir $VERSION" ;; esac
+            # le titre renvoie toujours vers la dernière version corrective
+            TITRE=$(printf '%s' "$TITRE" | sed -E 's/ ⚠️ bug, voir FR[0-9.]+$//')
+            TITRE="$TITRE ⚠️ bug, voir $VERSION"
             gh release edit "$TAG" --notes-file nouveau.md --title "$TITRE"
             echo "- $TAG : avertissement ajouté" >> "$GITHUB_STEP_SUMMARY"
           done
