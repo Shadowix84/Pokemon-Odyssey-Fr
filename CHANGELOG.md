@@ -3,6 +3,21 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.23
+
+Regroupe FR4.1.21 et FR4.1.22, non publiées séparément.
+
+**Ajouté**
+- Scripts du hack : le Journal de quête et les objectifs du menu des quêtes, les listes de Pokémon du Codex (noms français), le vérificateur d'IV/EV, le niveau maximum, le choix Mode Normal / Mode Difficile, la fontaine aux vœux, les stèles
+- Les scènes de Karin dans la Première Strate et le Juge des surnoms, qui étaient restés en italien dans la version anglaise
+- Le système d'AIDE de Rouge Feu (touche L ou R) : questions, modes d'emploi, lexique et table des types
+- La VÉRIF. STARS (fiches des CHAMPIONS et du CONSEIL 4) et l'évaluation du Pokédex par le PC
+- Les messages de l'équipe, du SAC, du PC et de la BOUTIQUE, l'apprentissage des capacités, le mémo du DRESSEUR et l'état des ŒUFS
+- Les textes de Rouge Feu peut-être inutilisés par le hack : intro du PROF. CHEN, POKé MEC et TV ABC, CADEAU MYSTÈRE, SALLE UNION, mots Easy Chat
+
+**Modifié**
+- Les textes de menus sont mis en page selon la largeur de leur fenêtre d'origine ; l'outil bloque la livraison si une ligne dépasse.
+
 ## FR4.1.20
 
 **Ajouté**
