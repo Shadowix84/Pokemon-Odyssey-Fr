@@ -3,6 +3,18 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.28
+
+Regroupe FR4.1.24 à FR4.1.27, non publiées séparément. **Traduction complète.**
+
+**Ajouté**
+- Les crédits de fin : rubriques (« Dév. principal, cartes… », « Traduction anglaise », « Bêta-testeurs »…) et messages de remerciement ; les pseudos ne changent pas
+- Les textes de Rouge Feu encore présents dans la ROM, probablement jamais affichés par le hack : dresseurs et panneaux de Kanto, ROUTE VICTOIRE, REPAIRE ROCKET, TOUR POKéMON, ARÈNES, PARC SAFARI, DOJO, LÉO, ÎLES SEVII, MAÏLIS, SÉLÉNA, décorations de Hoenn
+- Les messages communs : objets trouvés (« … trouve … ! »), PC, défaite (« … est hors jeu ! »)
+
+**Laissé tel quel**
+- Les textes sans aucun pointeur (jamais affichés) et les morceaux de scripts : il n’y a rien à afficher
+
 ## FR4.1.23
 
 Regroupe FR4.1.21 et FR4.1.22, non publiées séparément.
