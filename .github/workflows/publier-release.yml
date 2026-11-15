@@ -9,6 +9,7 @@
 # Facultatif : avertissement_anciennes_versions.md -> ajouté en haut des anciennes releases listées
 # sur sa 1re ligne (<!-- versions: FR4.1.17 FR4.1.18 -->), avec « ⚠️ bug » dans leur titre.
 # Un marqueur <!-- avert-FRx.y.z --> dans le fichier permet d’avertir à nouveau une release déjà avertie.
+# À la fin, le dossier publication/<VERSION> est supprimé : le patch et le texte sont dans la release.
 name: Publier une release
 
 on:
@@ -171,3 +172,17 @@ jobs:
             gh release edit "$TAG" --notes-file nouveau.md --title "$TITRE"
             echo "- $TAG : avertissement ajouté" >> "$GITHUB_STEP_SUMMARY"
           done
+
+      - name: Ranger le dossier de publication
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          # la release contient le patch et le texte : le dossier ne sert plus (il reste dans l’historique git)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git pull --quiet origin "${GITHUB_REF_NAME}"
+          git rm -r --quiet "publication/$VERSION"
+          git commit -m "Publication $VERSION : dossier de publication rangé (le patch est dans la release)"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "Dossier publication/$VERSION supprimé" >> "$GITHUB_STEP_SUMMARY"

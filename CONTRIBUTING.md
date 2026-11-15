@@ -7,7 +7,7 @@ Merci de vouloir donner un coup de main ! Voici comment aider, du plus simple au
 Ouvre une issue avec le formulaire **[Signaler un bug ou une faute](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose)**.
 
 Un bon signalement contient :
-- ta version (elle s'affiche dans le menu principal : « Continuer v4.x.x » à partir de FR4.1.18, « Continuer FR4.x.x » avant) ;
+- ta version (elle s'affiche dans le menu principal : « Continuer v4.1.x » correspond à la version FR4.1.x) ;
 - l'endroit exact dans le jeu (lieu, personnage, menu ou combat) ;
 - le texte tel qu'il s'affiche ;
 - une capture d'écran, si possible.
@@ -29,18 +29,12 @@ Garde aussi en tête que la place à l'écran est limitée : une proposition plu
 
 ## 3. Tester la dernière version
 
-À chaque version, quelques points sont à vérifier en jeu. Pour la **FR4.1.9** :
+Chaque version est testée automatiquement sur émulateur, mais rien ne remplace une vraie partie. Ce qui aide le plus :
 
-- [ ] Le menu principal affiche le bon numéro de version (ex. « Continuer v4.1.18 »)
-- [ ] Première Strate : le réveil de Karin et la partie de pierre-feuille-ciseaux
-- [ ] Première Strate : secouer une plante (« Combien de fois ? », « Tu obtiens … Baie(s) Oran ! »)
-- [ ] Labo Abandonné : l'entrée d'Annette (« TREMBLEZ, SCÉLÉRATS ! »)
-- [ ] Deuxième Strate : la rencontre avec Kitt et les essais de mot de passe devant le repaire
-- [ ] Repaire des Voleurs : le discours d'Olympia à Brody
-- [ ] Désert de Golgonda : Rockey, puis « Deuxième Strate : terminée ! »
-- [ ] Troisième Strate : lire une stèle (« Une feuille est attachée à la stèle : »)
-- [ ] Troisième Strate : le combat contre Manu
-- [ ] Café Meumeu : Malna et sa façon de parler (« Povcatvota… »)
+- [ ] Le menu principal affiche le bon numéro de version (« Continuer v4.1.x » pour la version FR4.1.x)
+- [ ] Les **libellés de menu** ne sont pas coupés (équipe, SAC, PC, options, quêtes) : c'est la principale limite connue
+- [ ] Les **dialogues** de ta zone actuelle s'affichent en entier, sans texte en anglais
+- [ ] Les points « Nouveautés » de la [dernière release](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest) fonctionnent
 
 Si tout va bien, tu peux le dire sur le [Discord](https://discord.gg/c7SMEeAm9s). Si quelque chose cloche, ouvre une issue.
 
