@@ -3,6 +3,17 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.33
+
+**Corrigé**
+- 6 messages de défaite de dresseurs (textes de Rouge Feu) étaient restés en anglais (« My first loss! », « That was electric! »…) : l'outil écartait leur adresse par erreur
+- 4 mots de la Messagerie restés en anglais : ADVERSAIRE, CORVÉES, HAUTS, ERRANT
+- Un « ! » qui passait seul en début de ligne (dresseur spécialiste du type EAU)
+
+**Modifié**
+- Termes harmonisés avec le glossaire : « Avis Pokédex » (au lieu d'« Évaluation du Pokédex »), « Niveau maximum » (description du bonbon), « énergie éthérée » (4 fiches du Pokédex)
+- Chaque version passe désormais un scan final automatique : textes anglais restants, glossaire et typographie, adresses de texte, tests sur émulateur, compatibilité des sauvegardes
+
 ## FR4.1.32
 
 **Corrigé**
