@@ -3,6 +3,17 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.34
+
+**Corrigé**
+- Résumé d'un Pokémon, page Capacités : l'aide en haut à droite était coupée (« HOISIR ») ; elle affiche « CHOIX · ÉCHANGE »
+- Écran « quelle capacité oublier ? » : aide raccourcie (« CHOIX · OUBLI »)
+- Menu QUÊTES : « Dompter un sanglier... » tient dans sa case
+- PC : « … est choisi. » et « On ne relâche pas d'ŒUF. » tiennent dans la fenêtre
+
+**Modifié**
+- Les libellés de menu plus larges que l'original ont été vérifiés sur émulateur (Pokédex, équipe, résumé, SAC, options, quêtes, écran titre) : une quinzaine restent à voir en jeu
+
 ## FR4.1.33
 
 **Corrigé**
