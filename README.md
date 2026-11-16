@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.34-2ea043" alt="Dernière version du patch"></a>
+  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.36-2ea043" alt="Dernière version du patch"></a>
   <img src="https://img.shields.io/badge/traduction-compl%C3%A8te-brightgreen" alt="Traduction complète">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
   <a href="https://discord.gg/c7SMEeAm9s"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
@@ -32,8 +32,8 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 
 ## Statut
 
-- **Traduction complète** : FR4.1.34, pour Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG), base Rouge Feu anglaise (« 1636 - Pokémon Fire Red (U)(Squirrels) »)
-- Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.34 »
+- **Traduction complète** : FR4.1.36, pour Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG), base Rouge Feu anglaise (« 1636 - Pokémon Fire Red (U)(Squirrels) »)
+- Dans le menu principal, « Continue v4.1.1 » devient « Continuer v4.1.36 »
 - Chaque version passe des contrôles automatiques avant d'être publiée : relecture de la ROM, tests sur émulateur (démarrage, combats, montée de niveau, parties au hasard) et recherche des textes restés en anglais
 
 > ⚠️ **Les versions avant FR4.1.30 ont des bugs** (le jeu peut se figer quand un Pokémon hors combat monte de niveau). Mets à jour : ta sauvegarde reste compatible. Détail dans [Versions à éviter](#versions-à-éviter).
@@ -45,7 +45,7 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 | Partie | Contenu |
 |---|---|
 | **Noms** | Pokémon, attaques, talents, objets, lieux, classes et dresseurs : 1 433 noms officiels, 65 abrégés pour tenir à l'écran (ex. Lance-Flamme), 193 noms inventés par le hack traduits ou adaptés (ex. Éclat Abyssal, Ygg-Sangsue, type Éther) |
-| **Menus et combats** | Menus, liste et en-tête des quêtes, messages de combat, SAC, PC, BOUTIQUE, système d'AIDE, Messagerie |
+| **Menus et combats** | Menus, liste et en-tête des quêtes, messages de combat, SAC, PC, BOUTIQUE, système d'AIDE, Messagerie, et les étiquettes dessinées en images (écran Résumé, icônes de type, carte de dresseur) |
 | **Descriptions** | 344 objets, 122 talents, 429 attaques, et les 410 fiches du Pokédex avec les mesures en système métrique |
 | **Dialogues** | Toute l'histoire, de Talrega aux huit Strates et aux trois fins, les quêtes annexes et les zones de l'après-guerre |
 | **Scripts du hack** | Journal de quête, Codex, vérificateur d'IV/EV, niveau maximum, Mode Normal / Difficile, et les scènes restées en italien dans la version anglaise |
@@ -66,7 +66,7 @@ Il faut appliquer **deux patchs**, l'un après l'autre : d'abord celui du hack (
 
    Tu obtiens un dossier avec des instructions en anglais (`HOW_TO_PLAY.txt`) et le patch `Odyssey.ups`.
 3. **Applique le patch du hack** avec [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) : dans *ROM file*, choisis `Pokémon Fire Red (U)(Squirrels).gba` ; dans *Patch file*, choisis `Odyssey.ups` ; puis clique sur *Apply patch*. Tu obtiens **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, en anglais. [Vérifie](#vérifier-ta-rom) ses empreintes : le site les affiche.
-4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.34.bps`) dans la section [Releases](../../releases) de ce dépôt.
+4. **Télécharge le patch FR** (`Odyssey_patch_FR4.1.36.bps`) dans la section [Releases](../../releases) de ce dépôt.
 5. **Applique le patch FR** avec Rom Patcher JS : choisis cette fois la ROM obtenue à l'étape 3, puis le patch `.bps`.
 6. Lance la ROM obtenue sur émulateur ou console.
 
@@ -166,7 +166,8 @@ L'outil de traduction avait modifié par erreur quelques octets qui ne sont pas 
 ## Limites connues
 
 - Une quinzaine de libellés de menu restent à voir en jeu (ex. le menu des natures « Jovial (+Vitesse -Att. Spé.) ») : ils pourraient être coupés à l'écran. Les autres ont été vérifiés sur émulateur.
-- Quelques étiquettes sont des images restées en anglais : l'écran Résumé (NAME, TYPE, OT, ITEM, ATTACK, DEFENSE…), les icônes de type (GRASS, BUG, FLYING…) et la carte de dresseur (IDNo., STRATUM). Elles seront redessinées en français.
+- Le petit « HP » vert à côté des barres de vie (combat, équipe, résumé) reste en anglais.
+- Les étiquettes en images sont en petites capitales sans accent, faute de place (DEFENSE, ELECTR, ETHER).
 - La taille des Magicarpe et des Scarhino s'affiche en pouces : c'est le jeu d'origine qui fait ce calcul.
 
 ## Historique des versions
@@ -175,6 +176,7 @@ L'outil de traduction avait modifié par erreur quelques octets qui ne sont pas 
 
 | Version | Contenu |
 |---|---|
+| FR4.1.36 (regroupe FR4.1.35) | Étiquettes en images traduites : écran Résumé (NOM, OBJET, ATTAQUE, VITESSE…), icônes de type (FEU, EAU, PLANTE…), carte de dresseur (No ID, STRATES) ; en combat, « Que doit faire … ? » sur deux lignes |
 | FR4.1.34 | Libellés de menu vérifiés à l'écran ; 4 textes raccourcis car coupés ou trop larges (aide de la page Capacités du résumé, quête du sanglier, messages du PC) |
 | FR4.1.33 | Derniers textes anglais traduits (6 messages de défaite de dresseurs, 4 mots de la Messagerie) ; termes harmonisés (Avis Pokédex, Niveau maximum, énergie éthérée) ; scan final automatique à chaque version |
 | FR4.1.32 | En-tête du menu des quêtes en français (« Quêtes annexes », « Préc. », « Suiv. ») (issue #6) |
@@ -203,7 +205,7 @@ Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyss
 - **Signaler un bug ou une faute** : texte coupé, en anglais, faute, jeu figé, patch qui ne s'applique pas ;
 - **Proposer une meilleure traduction** : une formulation plus juste ou plus naturelle.
 
-Indique ta version (ex. FR4.1.34), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
+Indique ta version (ex. FR4.1.36), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
 Le [serveur Discord](https://discord.gg/c7SMEeAm9s) sert à discuter et à suivre les nouveautés.
 

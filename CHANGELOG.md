@@ -3,6 +3,19 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.36
+
+Regroupe FR4.1.35 (non publiée).
+
+**Corrigé**
+- Combat : « Que doit faire … ? » et, au Jeu Safari, « Que va lancer … ? » passent sur deux lignes ; le « ? » était coupé par la petite fenêtre à gauche du menu
+
+**Ajouté**
+- Écran Résumé : étiquettes en français (No, NOM, TYPE, D.O., No ID, OBJET, PV, ATTAQUE, DEFENSE, ATQ.SPE, DEF.SPE, VITESSE, EXP., PUISSANCE, PRECISION)
+- Icônes de type en français : NORMAL, FEU, EAU, PLANTE, ELECTR, ROCHE, SOL, GLACE, VOL, COMBAT, SPECTR, INSECT, POISON, PSY, ACIER, TENEB., DRAGON, ETHER
+- Pastilles TYPE, PUISS., PRECIS., PP, EFFET
+- Carte de dresseur : « No ID » et « STRATES »
+
 ## FR4.1.34
 
 **Corrigé**
