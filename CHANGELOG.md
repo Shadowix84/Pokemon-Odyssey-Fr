@@ -3,6 +3,16 @@
 Toutes les versions de la traduction française de **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**.
 Chaque patch FR s'applique directement sur la ROM Pokémon Odyssey v4.1.1 (EXPANDED BAG), obtenue en appliquant le patch `.ups` du hack sur Rouge Feu. Les patchs sont dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases).
 
+## FR4.1.37
+
+**Corrigé**
+- Écran titre : « Options » (au lieu de « Option »), « Pokédex : » et « Strate : », qui étaient restés en anglais ou sans espace (« Stratum: »)
+- Dresseurs de la TEAM ROCKET : « SBIRE » au lieu de « GRUNT » (51 dresseurs, comme dans Rouge Feu) ; motards : « VOYOU » au lieu de « GOON »
+- OLGA du CONSEIL 4 : « Les capacités glaciales sont redoutables » (le mot utilisé n'existait pas)
+
+**Modifié**
+- Le scan final vérifie aussi l'orthographe de tous les textes à chaque version
+
 ## FR4.1.36
 
 Regroupe FR4.1.35 (non publiée).
