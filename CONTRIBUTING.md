@@ -36,7 +36,7 @@ Chaque version est testée automatiquement sur émulateur, mais rien ne remplace
 - [ ] Les **dialogues** de ta zone actuelle s'affichent en entier, sans texte en anglais
 - [ ] Les points « Nouveautés » de la [dernière release](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest) fonctionnent
 
-Si tout va bien, tu peux le dire sur le [Discord](https://discord.gg/c7SMEeAm9s). Si quelque chose cloche, ouvre une issue.
+Si tout va bien, tu peux le dire sur le [Discord](https://discord.gg/4FbhkuhRMm). Si quelque chose cloche, ouvre une issue.
 
 ## Ce qu'il ne faut pas faire
 
