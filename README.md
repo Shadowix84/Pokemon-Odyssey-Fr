@@ -17,17 +17,11 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 
 ## Bande-annonce
 
-
-
+1 minute, avec musique : l'histoire, les menus, l'écran Résumé et un combat, filmés dans la version FR4.1.37. Clique sur ▶ pour la lancer.
 
 https://github.com/user-attachments/assets/ea241219-a7ea-442f-a64d-4d372a4e4d79
 
-
-<p align="center">
-  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/blob/main/assets/bande-annonce.mp4"><img src="assets/bande-annonce-apercu.gif" alt="Extraits du jeu en français : l'histoire et un combat" width="640"></a>
-</p>
-
-<p align="center"><b><a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/blob/main/assets/bande-annonce.mp4">▶ Voir la bande-annonce complète</a></b> (1 min, avec musique) : l'histoire, les menus, l'écran Résumé et un combat, filmés dans la version FR4.1.37.</p>
+<p align="center"><a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/raw/main/assets/bande-annonce.mp4">⬇ Télécharger la vidéo (MP4, 6,5 Mo)</a></p>
 
 ## Sommaire
 
