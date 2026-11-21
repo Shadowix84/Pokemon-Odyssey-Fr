@@ -17,6 +17,12 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 
 ## Bande-annonce
 
+
+
+
+https://github.com/user-attachments/assets/ea241219-a7ea-442f-a64d-4d372a4e4d79
+
+
 <p align="center">
   <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/blob/main/assets/bande-annonce.mp4"><img src="assets/bande-annonce-apercu.gif" alt="Extraits du jeu en français : l'histoire et un combat" width="640"></a>
 </p>
