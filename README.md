@@ -15,8 +15,17 @@ Traduction française non officielle de la ROM hack GBA **Pokémon Odyssey COMPL
 
 > **[⬇ Télécharger le dernier patch](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest)** · [Comment jouer](#comment-jouer) · [Signaler un bug](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose) · 🇬🇧 [In English](#in-english)
 
+## Bande-annonce
+
+<p align="center">
+  <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/blob/main/assets/bande-annonce.mp4"><img src="assets/bande-annonce-apercu.gif" alt="Extraits du jeu en français : l'histoire et un combat" width="640"></a>
+</p>
+
+<p align="center"><b><a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/blob/main/assets/bande-annonce.mp4">▶ Voir la bande-annonce complète</a></b> (1 min, avec musique) : l'histoire, les menus, l'écran Résumé et un combat, filmés dans la version FR4.1.37.</p>
+
 ## Sommaire
 
+- [Bande-annonce](#bande-annonce)
 - [Statut](#statut)
 - [Ce qui est traduit](#ce-qui-est-traduit)
 - [Comment jouer](#comment-jouer)
@@ -218,7 +227,7 @@ Le [serveur Discord](https://discord.gg/4FbhkuhRMm) sert à discuter et à suivr
 
 ## In English
 
-**What is this?** An unofficial, fan-made French translation of the GBA ROM hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, based on Pokémon FireRed. The translation is complete: names, menus, battle messages, descriptions, all of the story dialogue, the Pokédex, event scripts and the credits are in French.
+**What is this?** ([trailer](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/blob/main/assets/bande-annonce.mp4)) An unofficial, fan-made French translation of the GBA ROM hack **Pokémon Odyssey COMPLETE v4.1.1 (EXPANDED BAG)**, based on Pokémon FireRed. The translation is complete: names, menus, battle messages, descriptions, all of the story dialogue, the Pokédex, event scripts and the credits are in French.
 
 **Versions before FR4.1.30 have bugs** (the game can freeze when a party Pokémon that did not battle levels up). Always use the latest patch: save files are compatible.
 
