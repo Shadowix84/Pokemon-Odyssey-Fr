@@ -6,7 +6,6 @@
   <a href="https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases/latest"><img src="https://img.shields.io/badge/patch-FR4.1.37-2ea043" alt="Dernière version du patch"></a>
   <img src="https://img.shields.io/badge/traduction-compl%C3%A8te-brightgreen" alt="Traduction complète">
   <img src="https://img.shields.io/badge/ROM-v4.1.1%20Expanded%20Bag-1f6feb" alt="ROM d'origine : v4.1.1 Expanded Bag">
-  <a href="https://discord.gg/4FbhkuhRMm"><img src="https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 # Pokémon Odyssey – Traduction française
@@ -147,7 +146,7 @@ Tout le texte du jeu est traduit : [signale-le](https://github.com/Shadowix84/Po
 <details>
 <summary><b>Quand sort la prochaine version ?</b></summary>
 
-Il n'y a pas de date fixe : les nouvelles versions corrigent les problèmes signalés dans les issues. Elles sont annoncées sur le [serveur Discord](https://discord.gg/4FbhkuhRMm).
+Il n'y a pas de date fixe : les nouvelles versions corrigent les problèmes signalés dans les issues. Elles sont publiées dans les [Releases](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/releases). Pour être prévenu, clique sur **Watch** → **Custom** → **Releases** en haut de cette page.
 </details>
 
 ## Choix de traduction
@@ -218,8 +217,6 @@ Tout passe par les **[issues GitHub](https://github.com/Shadowix84/Pokemon-Odyss
 
 Indique ta version (ex. FR4.1.37), l'endroit dans le jeu et, si possible, une capture d'écran. Pour aider autrement (tester une version, par exemple), lis le [guide de contribution](CONTRIBUTING.md).
 
-Le [serveur Discord](https://discord.gg/4FbhkuhRMm) sert à discuter et à suivre les nouveautés.
-
 ## Crédits
 
 - Équipe de Pokémon Odyssey, pour la ROM hack d'origine
@@ -238,7 +235,7 @@ Le [serveur Discord](https://discord.gg/4FbhkuhRMm) sert à discuter et à suivr
 
 No ROM is distributed here, only the translation patch. Each French patch applies directly to the Odyssey v4.1.1 EXPANDED BAG ROM.
 
-**Bugs and feedback:** open an [issue](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose) (English is fine) or join the [Discord](https://discord.gg/4FbhkuhRMm).
+**Bugs and feedback:** open an [issue](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose) (English is fine).
 
 **Credits:** the Pokémon Odyssey team for the original hack; French translation by Shadowix84.
 

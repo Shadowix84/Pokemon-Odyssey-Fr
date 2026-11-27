@@ -6,6 +6,6 @@ Le seul patch officiel de cette traduction est celui publié dans la section Rel
 
 ## Signaler un problème de sécurité
 
-Si tu repères un lien suspect, un faux patch ou un fichier douteux se faisant passer pour cette traduction, préviens-moi sur le [serveur Discord](https://discord.gg/4FbhkuhRMm), dans le salon prévu pour contacter un modérateur.
+Si tu repères un lien suspect, un faux patch ou un fichier douteux se faisant passer pour cette traduction, préviens-moi en ouvrant une [issue](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose) avec « Sécurité » dans le titre. Ne mets pas de lien cliquable vers le fichier douteux : décris simplement où tu l'as trouvé.
 
 Les bugs de jeu et les fautes de traduction ne se signalent pas ici : ouvre une [issue](https://github.com/Shadowix84/Pokemon-Odyssey-Fr/issues/new/choose) avec le formulaire de signalement.
